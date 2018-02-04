@@ -9,3 +9,6 @@ Data downloaded from on-line databases, and processed in BibTex editor.
 
 ## Processed_data
 *Systematic-Mapping-Study-Coroutines-Data-Set.xlsx* contains syntheisised data and questionnaire results, and calculated totals for use in study.
+
+## Notes
+*Systematic-Mapping-Study-Coroutines-Procedure.docx* contains notes on the data collection procedures.
