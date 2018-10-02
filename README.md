@@ -16,7 +16,7 @@ Data downloaded from on-line databases, and processed in BibTex editor.
 ## Tex
 
 ### Bibliographies
-*SMS-Coro-SMS-Coro-Refs.bib* and *SMS-Coro-SMS-Coro-Studies.bib* are exported by Mendeley. See the main .tex file for instructions on manually post-processing these for URL escaping.
+*SMS-Coro-SMS-Coro-Refs.bib* and *SMS-Coro-SMS-Coro-Studies.bib* are exported by Mendeley. See the bibliography insertion point in the main .tex file for instructions on manually post-processing these for URL escaping.
 
 ### Graphics
 Graphics are exported from Excel or from MS Word as PDF files, using the following procedure:
@@ -57,4 +57,11 @@ End Sub
 
 3) Rename selected chart and run pdfcrop as above
 
-     
+## Version 37
+
+Changes between version 36 and 37 include:
+1. Title changed from 'A survey of asynchronous programming using coroutines in embedded systems' to 'A survey of asynchronous programming using coroutines in embedded systems and Internet of Things'.
+2. Search extended to September 2018, with 40 extra papers captured ad 2 selected for inclusion.
+3. Full list of papers in '3.5 Data set' excluded to keep the paper <= 20 pp.
+4. Table 2 - Research Gaps in section 5.3 is now sorted in Year+Author order.
+5. 
