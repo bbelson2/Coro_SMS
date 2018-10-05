@@ -60,8 +60,11 @@ End Sub
 ## Version 37
 
 Changes between version 36 and 37 include:
-1. Title changed from 'A survey of asynchronous programming using coroutines in embedded systems' to 'A survey of asynchronous programming using coroutines in embedded systems and Internet of Things'.
+1. Title changed from 'A survey of asynchronous programming using coroutines in embedded systems' to 'A survey of asynchronous programming using coroutines in the Internet of Things and embedded systems'.
 2. Search extended to September 2018, with 40 extra papers captured ad 2 selected for inclusion.
 3. Full list of papers in '3.5 Data set' excluded to keep the paper <= 20 pp.
 4. Table 2 - Research Gaps in section 5.3 is now sorted in Year+Author order.
-5. 
+5. Changed title of section 3 from 'Systematic mapping study – research method' to 'Systematic mapping study'.
+6. Added new sentence in 3.5 Data Set re paucity of papers.
+7. Added new section in 5.3 Discussion re inconsistency of search results between 2017 & 2018.
+8. Added supplementarey materials within document (screen version only).

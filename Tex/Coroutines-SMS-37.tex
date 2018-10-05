@@ -84,7 +84,7 @@ The switch from C to C++ need not be dramatic. C++ is close to being a superset 
 
 The features that might persuade a development team to make the move to C++ have always included well-known front-end features such as namespaces, encapsulation, and inline functions, all of which offer benefits regarding code clarity but have no implementation cost in terms of code size or speed. Replacing split-phase functions with a direct programming style by using new, widely supported, language standards would appear to be a strong enticement for developers to migrate. It remains to be seen whether the feature can be provided for embedded systems without including two of the three behaviours which Goldthwaite \cite{Goldthwaite2006} identified as being problematical: dynamic memory allocation and exceptions.
 
-\section{Systematic mapping study – research method}
+\section{Systematic mapping study}
 \label{section:sms}
 
 \begin{figure}[h]
@@ -117,7 +117,7 @@ The exclusion criteria were informed by previous studies \cite{Kitchenham2007, P
 
 The search, across all databases, found 187 journal articles, 224 conference papers and 155 book chapters. This informed our decision to include all three publication classes within the search domain. The decision was made to include only studies published since 2007; this criterion excluded approximately 43\% of the original search results.
 
-Details of the search strings, inclusion and exclusion criteria, procedures and download scripts can be found in the supplementary materials .
+Details of the search strings, inclusion and exclusion criteria, procedures and download scripts can be found in the supplementary materials.
 
 An initial tertiary study was executed, being a review of existing reviews and mapping studies in the area of interest, as suggested by Kitchenham and Charters’ guidelines \cite{Kitchenham2007}. The work concluded that, at the time of writing, this study appears to be the first to systematically map the use of coroutines in resource-constrained systems, whether as embedded systems or as IoT component systems.
 
@@ -127,7 +127,7 @@ A major motivation for the study was to prepare the ground for an acceptable imp
 
 RQ1 investigated the software platform, including programing language, operating system and the implementation used for the relevant language feature. RQ2 looked at the hardware platform, including memory size and processor family. RQ3 and RQ4 assessed the use cases and intended benefits respectively of the coroutine usage. RQ5 assessed the programming interface.
 
-The research questions are listed in Table 1 of the supplementary materials.
+The research questions are listed in full in the supplementary materials.
 
 \subsection{Threats to validity}
 
@@ -145,7 +145,9 @@ To improve the consistency of classification a subset of papers was inspected by
 
 The initial search found 566 results; removal of duplicates left 553 documents. More than half of these failed the exclusion criteria, leaving 276 whose abstracts were studied.
 
-Approximately 55\% of the surviving studies immediately failed the inclusion criteria, leaving 125 to be studied in full. After applying the inclusion criteria on the basis of the entire text, about 72\% failed, and 35 studies were retained \cite{Alvira2013, Andalam2014, Andersen2016, Andersen2017b, Bergel2011, Boers2010, Clark2009, Cohen2007b, Durmaz2017, Elsts2017, Evers2007, Fritzsche2010, Glistvain2010, Inam2011, Jaaskelainen2008, Jahier2016, Kalebe2017, Karpin2007, Khezri2008, Kugler2013, Kumar2007, Liu2011, Lohmann2012, Motika2015, Niebert2014, Noman2017, Oldewurtel2009, Park2015, Riedel2010, Schimpf2012b, St-Amour2010, Strube2010, Susilo2009, VonHanxleden2009, Yu2008}. Of these, 21 studies included a discussion of the implementation of coroutines. Figure \ref{fig:sms} illustrates the process. 
+Approximately 55\% of the surviving studies immediately failed the inclusion criteria, leaving 125 to be studied in full. After applying the inclusion criteria on the basis of the entire text, about 72\% failed, and 35 studies were retained \cite{Alvira2013, Andalam2014, Andersen2016, Andersen2017b, Bergel2011, Boers2010, Clark2009, Cohen2007b, Durmaz2017, Elsts2017, Evers2007, Fritzsche2010, Glistvain2010, Inam2011, Jaaskelainen2008, Jahier2016, Kalebe2017, Karpin2007, Khezri2008, Kugler2013, Kumar2007, Liu2011, Lohmann2012, Motika2015, Niebert2014, Noman2017, Oldewurtel2009, Park2015, Riedel2010, Schimpf2012b, St-Amour2010, Strube2010, Susilo2009, VonHanxleden2009, Yu2008}. Of these, 21 studies included a discussion of the implementation of coroutines. Figure \ref{fig:sms} illustrates the process.
+
+The selected papers addressed the issue of coroutines despite the lack of mainstream language support. These researchers identified a need that was not addressed by common languages and showed the potential benefits of these features. Now that native asynchronous programming support is being added to the C++ language, it is likely that demand from embedded software developers will only increase. 
 
 % The section below is commented out for reasons of space. 
 % Restoring it may make the document > 20 pages long.
@@ -274,7 +276,7 @@ Figure \ref{fig:rq2bc} shows the ROM and RAM sizes of the selected platforms, us
 
 Only 45\% (13 out of 29) of the CPUs that were identified were 32-bit processors: 9 were 8-bit and 7 were 16-bit. The fact that 55\% (16 out of 29 studies) used 8- and 16-bit devices indicates that coroutines are applicable to very constrained platforms.
 
-It is also notable that within the 8-bit segment, all but one were of the megaAVR family; among 16-bit processors 5 out of 7 used the TI MSP430 architecture. Within the 32-bit segment the picture was less clear-cut: just over half used the ARM architecture. These results are summarised in Figure \ref{fig:rq2d}. Full details are in Table 9 in the supplementary materials.
+It is also notable that within the 8-bit segment, all but one were of the megaAVR family; among 16-bit processors 5 out of 7 used the TI MSP430 architecture. Within the 32-bit segment the picture was less clear-cut: just over half used the ARM architecture. These results are summarised in Figure \ref{fig:rq2d}. Full details are in the supplementary materials.
 
 \subsection{Use cases}
 
@@ -295,13 +297,13 @@ It is also notable that within the 8-bit segment, all but one were of the megaAV
 	\caption{Usage outcomes}
 \end{figure}
 
-The four most common use cases were concurrency (49\% of papers), network communication (43\%), sensor readings (26\%) and data flow (20\%), as illustrated in Figure \ref{fig:rq3}. It is notable that all four of these use cases are often considered to present difficulty or complexity for programmers. (See Table 10 and Table 11 in the supplementary materials for details of use cases and their classifications.)
+The four most common use cases were concurrency (49\% of papers), network communication (43\%), sensor readings (26\%) and data flow (20\%), as illustrated in Figure \ref{fig:rq3}. It is notable that all four of these use cases are often considered to present difficulty or complexity for programmers. (See the supplementary materials for details of use cases and their classifications.)
 
 These use cases are common across many platforms, and not just resource-constrained devices. Syntax designed for desktop systems is likely to handle these cases relatively well. Contrasting these use cases with those found in desktop development, we observe that user interfaces (a strong driver of coroutines in desktop and portable system development) are absent and that sensor readings (a rare requirement in desktop systems) are prominent.
 
 \subsection{Intended benefits}
 
-Of the intended benefits the most common classifications were (i) code style and simplicity (34\%), (ii) scheduling (26\%) and (iii) efficiency (23\%), as summarized in Figure \ref{fig:rq4}. (Tables 12 and 13 in the supplementary materials contain details of the classifications of benefits.)
+Of the intended benefits the most common classifications were (i) code style and simplicity (34\%), (ii) scheduling (26\%) and (iii) efficiency (23\%), as summarized in Figure \ref{fig:rq4}. (The supplementary materials contain details of the classifications of benefits.)
 
 We have observed that split-phase programming leads to error-prone, hard-to-maintain code; it is therefore unsurprising that code style and simplicity leads the list.
 
@@ -311,7 +313,7 @@ The high incidence of efficiency as an intended benefit also reflects the latenc
 
 \subsection{Application programming interface}
 
-Of the 35 studies analysed, 21 discussed an implementation of coroutines: the questionnaire results for RQ5 are listed in Table 14 of the supplementary materials.
+Of the 35 studies analysed, 21 discussed an implementation of coroutines: the questionnaire results for RQ5 are listed in the supplementary materials.
 
 The API questions (RQ5b-e) could not in all cases be answered directly from inspection of the paper. In these cases, unless the answer could be found in the supplementary materials, linked source code, or was well-known to the researchers, the question was answered ‘Unknown’. In some cases the source code referenced by the paper was no longer available.
 
@@ -396,7 +398,7 @@ Given that mainstream C++ programming supports environments where heap memory is
 	\caption{Summary of research gaps}
 	\label{gaps}
 	\centering
-	\begin{tabular}{ m{4cm} m{1.1cm} m{1.1cm} m{1.1cm} m{1.1cm} m{1.1cm} m{1.1cm} m{1cm} }
+	\begin{tabular}{ m{3cm} m{1.1cm} m{1.1cm} m{1.1cm} m{1.1cm} m{1.1cm} m{1.1cm} m{1cm} }
 		\hline
 		  %\begin{vheader}Paper\end{vheader}
 		  Paper
@@ -433,7 +435,9 @@ Kalebe et al. 2017	 & \checkmark\checkmark	 & 	 & \checkmark\checkmark	 & \check
 \emph{Ideal outcome}	 & \checkmark\checkmark	 & \checkmark\checkmark	 & \checkmark\checkmark	 & \checkmark\checkmark	 & \checkmark\checkmark	 & \checkmark\checkmark	 & \checkmark\checkmark	\\ \hline
 % End of section pasted in from Excel		
 \multicolumn{8}{l}{\footnotesize 
-	Key: \checkmark\checkmark - The issue is considered and resolved. \checkmark - The issue is addressed but not resolved. Blank – The issue is not present. 
+	\begin{tabular}{l}
+	Key: \checkmark\checkmark - The issue is considered and resolved. \checkmark - The issue is addressed but not resolved. \\ Blank – The issue is not present. 
+	\end{tabular}
 }
 	\end{tabular}	
 \end{table}
@@ -443,11 +447,17 @@ Focussing specifically on the studies that describe an implementation, we have a
 
 We conclude that a research gap remains with regard to the study of standard C++ as an appropriate language for the development of asynchronous programs on resource-constrained devices.
 
+\subsection{Repeatability of search results}
+
+We found that when the IEEE Xplore database search was repeated 11 months after the original search, the new results were not, as they were expected to be, a superset of the original results. Of the original 144 papers found in October 2017, only 87 (60\%) appeared in the search results in September 2018. Further, of the 32 new results, only 16 were papers published since 2015: the other half were published before 2015. We conclude that the search methodology of the IEEE database has changed in the interim, and this raises a question over the use of this database for systematic surveys. This problem was not found for the other on-line databases used.
+
 \subsection{Discussion}
 
+\iffalse
 A systematic mapping study was conducted into the use and implementation of coroutines on resource-constrained devices, following the guidelines of Kitchenham \cite{Kitchenham2004}, Kitchenham and Charters \cite{Kitchenham2007} and Petersen et al. \cite{Petersen2008}. The search included papers published in English since 2007, and yielded 553 unique documents, of which 35 were selected after application of inclusion and exclusion criteria.
+\fi
 
-The majority of papers used the C programming language; while the coroutines proposal \cite{ISO2017} is for C++, the use of C++ for these projects would not necessarily require significant programming changes.
+The majority of selected papers used the C programming language; while the coroutines proposal \cite{ISO2017} is for C++, the use of C++ for these projects would not necessarily require significant programming changes.
 
 Over a quarter of the papers used the Contiki \cite{Dunkels2004} operating system, which provides coroutine support through Protothreads \cite{Dunkels2006}, which rely on Duff’s device. Given the problems, discussed in section \ref{previous-implementations}, that are associated with using this device, this common use of Protothreads indicates a widespread need for the facilities provided by a coroutine-like solution.
 
