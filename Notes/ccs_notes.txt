@@ -1,0 +1,54 @@
+Coroutines
+Language features
+General programming languages
+Software notations and tools
+Software and its engineering
+
+Software and its engineering ~ Software notations and tools ~ General programming languages ~ Language features ~ Coroutines
+
+500
+
+Computer systems organization ~ Embedded and cyber-physical systems ~ Embedded systems ~ Embedded software
+
+300
+
+Software and its engineering ~ Software notations and tools ~ Compilers
+
+300
+
+Computer systems organization ~ Embedded and cyber-physical systems ~ Sensors and actuators
+
+100
+
+
+
+
+\begin{CCSXML}
+<ccs2012>
+<concept>
+<concept_id>10011007.10011006.10011008.10011024.10011037</concept_id>
+<concept_desc>Software and its engineering~Coroutines</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10011007.10011006.10011041</concept_id>
+<concept_desc>Software and its engineering~Compilers</concept_desc>
+<concept_significance>300</concept_significance>
+</concept>
+<concept>
+<concept_id>10010520.10010553.10010562.10010564</concept_id>
+<concept_desc>Computer systems organization~Embedded software</concept_desc>
+<concept_significance>300</concept_significance>
+</concept>
+<concept>
+<concept_id>10010520.10010553.10010559</concept_id>
+<concept_desc>Computer systems organization~Sensors and actuators</concept_desc>
+<concept_significance>100</concept_significance>
+</concept>
+</ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Software and its engineering~Coroutines}
+\ccsdesc[300]{Software and its engineering~Compilers}
+\ccsdesc[300]{Computer systems organization~Embedded software}
+\ccsdesc[100]{Computer systems organization~Sensors and actuators}

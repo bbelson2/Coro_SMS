@@ -14,10 +14,16 @@
 \IncMargin{-\parindent}
 
 \usepackage{listings} % For code listings
-\lstdefinestyle{cppstyle}{
-	tabsize=2
-}
-\lstset{style=cppstyle}
+%\lstdefinestyle{cppstyle}{
+%	tabsize=2
+%}
+\definecolor{verylightgrey}{gray}{0.9}
+\lstset{ %
+	language=C++,
+	basicstyle=\small,%
+%	backgroundcolor=\color{verylightgrey}
+	frame=single
+	}
 
 \usepackage{amssymb}
 \usepackage[flushleft]{threeparttable}
@@ -50,7 +56,7 @@
 %\setcopyright{cagovmixed}
 
 % DOI
-%\acmDOI{0000001.0000001}
+\acmDOI{}
 
 % Paper history
 %\received{February 2007}
@@ -64,7 +70,6 @@
 \title[A survey of asynchronous programming using coroutines in IoT and embedded systems]{A survey of asynchronous programming using coroutines in the Internet of Things and embedded systems}
 
 \author{Bruce Belson}
-
 \orcid{0000-0003-2904-1650}
 \affiliation{%
   \institution{James Cook University}
@@ -123,32 +128,33 @@ Many Internet of Things and embedded projects are event-driven, and therefore re
 \begin{CCSXML}
 	<ccs2012>
 	<concept>
-		<concept_id>10010520.10010553.10010562.10010564</concept_id>
-		<concept_desc>Computer systems organization~Embedded software</concept_desc>
-		<concept_significance>500</concept_significance>
+	<concept_id>10011007.10011006.10011008.10011024.10011037</concept_id>
+	<concept_desc>Software and its engineering~Coroutines</concept_desc>
+	<concept_significance>500</concept_significance>
 	</concept>
 	<concept>
-		<concept_id>10010520.10010553.10010559</concept_id>
-		<concept_desc>Computer systems organization~Sensors and actuators</concept_desc>
-		<concept_significance>100</concept_significance>
+	<concept_id>10011007.10011006.10011041</concept_id>
+	<concept_desc>Software and its engineering~Compilers</concept_desc>
+	<concept_significance>300</concept_significance>
 	</concept>
 	<concept>
-		<concept_id>10011007.10011006.10011008.10011024.10011037</concept_id>
-		<concept_desc>Software and its engineering~Coroutines</concept_desc>
-		<concept_significance>500</concept_significance>
+	<concept_id>10010520.10010553.10010562.10010564</concept_id>
+	<concept_desc>Computer systems organization~Embedded software</concept_desc>
+	<concept_significance>300</concept_significance>
 	</concept>
 	<concept>
-		<concept_id>10010583.10010786.10010787.10010789</concept_id>
-		<concept_desc>Hardware~Emerging languages and compilers</concept_desc>
-		<concept_significance>300</concept_significance>
+	<concept_id>10010520.10010553.10010559</concept_id>
+	<concept_desc>Computer systems organization~Sensors and actuators</concept_desc>
+	<concept_significance>100</concept_significance>
 	</concept>
 	</ccs2012>
 \end{CCSXML}
 
-\ccsdesc[500]{Computer systems organization~Embedded software}
-\ccsdesc[100]{Computer systems organization~Sensors and actuators}
 \ccsdesc[500]{Software and its engineering~Coroutines}
-\ccsdesc[300]{Hardware~Emerging languages and compilers}
+\ccsdesc[300]{Software and its engineering~Compilers}
+\ccsdesc[300]{Computer systems organization~Embedded software}
+\ccsdesc[100]{Computer systems organization~Sensors and actuators}
+
 
 %
 % End generated code

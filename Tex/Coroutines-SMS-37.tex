@@ -13,7 +13,7 @@ Existing research on coroutines in C++ may not have considered the needs of embe
 
 This article contains a systematic mapping of the use of coroutines in embedded systems, conducted by searching academic databases and manually inspecting every matching paper. It thus provides a complete perspective on coroutines in embedded systems to inform the C++ standardization process by identifying how and why coroutines are used. The article uses the mapping to build a taxonomy of existing research with regard to platform, use cases and implementation.
 
-The design of the study, details of the methodology used for each stage and the results of each stage are available in spreadsheet format .
+The design of the study, details of the methodology used for each stage and the results of each stage are available in spreadsheet format.
 The remainder of this paper is organised as follows. Section \ref{section:background} contains the background: an introduction to the development environment for C/C++ programs on resource-constrained devices, to some of the problems commonly encountered by developers and to the types of solution currently applied to these problems; a discussion of the use of coroutines in C and C++; and a review of related work. Section \ref{section:sms} details the methodology of the mapping process used in this study, and some of the logic underpinning the methodological choices. Section \ref{section:results} explores the results and presents insights. Section \ref{section:analysis} contains a discussion of results and an analysis of research gaps. Section \ref{section:conclusion} discusses future research possibilities and concludes the paper.
 
 
@@ -45,30 +45,30 @@ Protothreads (and any other solution based on Duff’s device) can be considered
 
 Listing \ref{protothreads} contains a fragment of code that used Protothreads to implement part of an asynchronous producer/consumer pattern. Listing \ref{coawait} shows a similar code fragment, this time using C{}\verb!++! language features, including the co\_await keyword of the current C{}\verb!++! standardisation proposal N4680.
 
-\begin{lstlisting}[language=C++, caption=Fragment of Protothreads code for asynchronous producer/consumer threads, label=protothreads]
+\begin{lstlisting}[language=C, caption=Fragment of Protothreads code for asynchronous producer/consumer threads, label=protothreads]
 static struct pt_sem full, empty;
 
 static
 PT_THREAD(consumer(struct pt *pt))
 {
-	static int consumed;
-  	PT_BEGIN(pt);
-  	for (consumed = 0; consumed < NUM_ITEMS; 
-    	++consumed) {
-    	PT_SEM_WAIT(pt, &empty);
-    	consume_item(get_from_buffer());
-    	PT_SEM_SIGNAL(pt, &full);
-  	}
-  	PT_END(pt);
+  static int consumed;
+  PT_BEGIN(pt);
+  for (consumed = 0; consumed < NUM_ITEMS; 
+      ++consumed) {
+    PT_SEM_WAIT(pt, &empty);
+    consume_item(get_from_buffer());
+    PT_SEM_SIGNAL(pt, &full);
+  }
+  PT_END(pt);
 }
 \end{lstlisting}
 
 \begin{lstlisting}[language=C++, caption=C++ code fragment using co\_await for asynchronous producer/consumer threads, label=coawait]
 task<> consumer(semaphore& sem) {
-	auto producer = async_producer(sem, NUM_ITEMS);
-	for co_await(auto consumed : producer) {
-		consume_item(get_fom_buffer());
-	}
+  auto producer = async_producer(sem, NUM_ITEMS);
+  for co_await(auto consumed : producer) {
+    consume_item(get_fom_buffer());
+  }
 }
 \end{lstlisting}
 
@@ -243,13 +243,13 @@ Two studies called out to another language to implement the coroutines: one \cit
 \subsection{Operating system}
 
 \begin{figure}[h]
-	\includegraphics[width=0.5\textwidth]{RQ1c-Operating-systems-used-in-selected-studies}
-	\caption{RQ1c - Operating systems used in selected studies}
+	\includegraphics[width=0.5\textwidth]{RQ1c-Operating-systems-used-in-selected-c-like-studies}
+	\caption{RQ1c - Operating systems used in selected studies using C-like languages}
 	\label{fig:rq1c}
 \end{figure}
 
 
-Of the 26 studies that were written in C, C++ or NesC, 13 (50\%) used (or extended) a widely-known embedded operating system (Contiki \cite{Dunkels2004}, TinyOS \cite{Levis2005} or FreeRTOS \cite{Barry2018}) and 11 (42\%) used a unique operating system, or one that was generated for each application, as shown in Figure \ref{fig:rq1c}. There was not enough information in the papers themselves to judge how many of these 11 papers could be considered ‘bare-metal’.
+Of the 26 instances studied that were written in C, C++ or NesC, 13 (50\%) used (or extended) a widely-known embedded operating system (Contiki \cite{Dunkels2004}, TinyOS \cite{Levis2005} or FreeRTOS \cite{Barry2018}) and 9 (35\%) used a unique operating system, or one that was generated for each application, as shown in Figure \ref{fig:rq1c}. There was not enough information in the papers themselves to judge how many of these 9 papers could be considered ‘bare-metal’.
 
 \subsection{Memory}
 
