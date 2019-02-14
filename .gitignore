@@ -31,3 +31,12 @@
 *.out
 *.app
 Tex/comment.cut
+
+# Intermediate files
+tmp/*.aux
+tmp/*.bbl
+tmp/*.blg
+tmp/*.log
+tmp/*.out
+tmp/*.cut
+tmp/images/*

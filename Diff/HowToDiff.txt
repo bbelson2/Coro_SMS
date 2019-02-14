@@ -1,0 +1,35 @@
+1) Install latex diff.
+
+For Windows follow the instructions at https://www.overleaf.com/learn/latex/Articles/Using_Latexdiff_For_Marking_Changes_To_Tex_Documents
+
+1.1 install Perl: download from here; http://www.perl.org/get.html. ActivePerl
+1.2 download latexdiff from CTAN; http://www.ctan.org/tex-archive/support/latexdiff
+1.3 unzip the latexdiff files and copy them to the Perl > bin folder 
+
+Ensure that the perl/bin folder is added to the PATH.
+
+2) Create a working folder (this one)
+
+
+3) Create 2 complete single document versions of the versions to be compared. 
+
+e.g. in Coroutines-SMS-38-TECS.tex replace the following line:
+  \input{Coroutines-SMS-38}
+by the content of all of Coroutines-SMS-38.tex. 
+
+Rename the new file to be Coroutines-SMS-38-combined.tex.
+
+4) Copy resources
+
+Copy the images folder to a new subfolder of the working folder. 
+Copy the bibtex file SMS-Coro.bib to the working folder. 
+
+5) Run the command line:
+
+  latexdiff Coroutines-SMS-37-combined.tex Coroutines-SMS-38-combined.tex > 37-38-diff-combined.tex --exclude-textcmd="section,subsection,title"
+
+The excluded commands are ones which cannot accept \DIF... as sub-components.
+
+6) Build the output.
+
+Open 37-38-diff-combined.tex in TexStudio and build.
