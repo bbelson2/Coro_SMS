@@ -1,7 +1,7 @@
 \documentclass[format=acmsmall, review=false, screen=false]{acmart}
 %DIF LATEXDIFF DIFFERENCE FILE
 %DIF DEL Coroutines-SMS-37-combined.tex   Tue Feb 12 10:30:37 2019
-%DIF ADD Coroutines-SMS-39-combined.tex   Mon Feb 18 11:30:05 2019
+%DIF ADD Coroutines-SMS-39-combined.tex   Mon Feb 18 11:47:49 2019
 
 %\citestyle{acmnumeric}
 \citestyle{acmauthoryear}
@@ -374,7 +374,9 @@ task<> consumer(semaphore& sem) {
 \end{lstlisting}
 \DIFaddend 
 
-\DIFaddbegin \DIFadd{In 1992, Gupta et al. examined a coroutine-based concurrency model for resource-constrained platforms as part of a comparison between alternative models \mbox{%DIFAUXCMD
+\DIFdelbegin \DIFdel{Schimpf \mbox{%DIFAUXCMD
+\cite{Schimpf2012b} }\hspace{0pt}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{In 1992, Gupta et al. examined a coroutine-based concurrency model for resource-constrained platforms as part of a comparison between alternative models \mbox{%DIFAUXCMD
 \cite{Gupta1992}}\hspace{0pt}%DIFAUXCMD
 . In 2000, Engelschall summarised the various techniques based on setjmp \& longjmp \mbox{%DIFAUXCMD
 \cite{Engelschall2000}}\hspace{0pt}%DIFAUXCMD
@@ -389,7 +391,25 @@ implemented as an extension to TinyOS \mbox{%DIFAUXCMD
 
 %DIF >  Kowalke’s Boost Coroutine C++ library \cite{Kowalke2009} is stackful; the second version \cite{Kowalke2014} has support for a variety of different strategies for stack allocation.
 
-\DIFaddend Schimpf \cite{Schimpf2012b} provides a modified version of Protothreads which supports a priority-based scheduler. Cohen et al. \cite{Cohen2007b} provide a coroutine-based scheduler for TinyOS \cite{Levis2005} which is used to implement “RPC-like interfaces”; these support a direct programming style for communications code written in nesC \cite{Gay2003}. Riedel et al.\cite{Riedel2010} generate C code for multiple platforms, including a version that uses coroutines to provide concurrency. Susilo et al. \cite{Susilo2009} use a coroutine-based scheduler to achieve “[r]eal time multitasking […] without interrupts”. Finally, Andersen et al. \cite{Andersen2017b} reject the use of C++ futures because the implementation model needs to handle a stream of events, rather than a single event, and is therefore non-deterministic in its use of memory, which is undesirable on a constrained platform: “One is forced therefore to trade off the reliability of promises […] in order for them to work in the embedded space.” Instead, the authors use callbacks for C++ event handling.
+\DIFadd{\mbox{%DIFAUXCMD
+\citeN{Schimpf2012b} }\hspace{0pt}%DIFAUXCMD
+}\DIFaddend provides a modified version of Protothreads which supports a priority-based scheduler. \DIFdelbegin \DIFdel{Cohen et al. \mbox{%DIFAUXCMD
+\cite{Cohen2007b} }\hspace{0pt}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\citeN{Cohen2007b} }\hspace{0pt}%DIFAUXCMD
+}\DIFaddend provide a coroutine-based scheduler for TinyOS \cite{Levis2005} which is used to implement “RPC-like interfaces”; these support a direct programming style for communications code written in nesC \cite{Gay2003}. \DIFdelbegin \DIFdel{Riedel et al.\mbox{%DIFAUXCMD
+\cite{Riedel2010} }\hspace{0pt}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\citeN{Riedel2010} }\hspace{0pt}%DIFAUXCMD
+}\DIFaddend generate C code for multiple platforms, including a version that uses coroutines to provide concurrency. \DIFdelbegin \DIFdel{Susilo et al. \mbox{%DIFAUXCMD
+\cite{Susilo2009} }\hspace{0pt}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\citeN{Susilo2009} }\hspace{0pt}%DIFAUXCMD
+}\DIFaddend use a coroutine-based scheduler to achieve “[r]eal time multitasking […] without interrupts”. Finally, \DIFdelbegin \DIFdel{Andersen et al. \mbox{%DIFAUXCMD
+\cite{Andersen2017b} }\hspace{0pt}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\citeN{Andersen2017b} }\hspace{0pt}%DIFAUXCMD
+}\DIFaddend reject the use of C++ futures because the implementation model needs to handle a stream of events, rather than a single event, and is therefore non-deterministic in its use of memory, which is undesirable on a constrained platform: “One is forced therefore to trade off the reliability of promises […] in order for them to work in the embedded space.” Instead, the authors use callbacks for C++ event handling.
 
 The scripting language Lua possesses a coroutine implementation \cite{Moura2004a} and has been successfully used on microcontrollers \cite{Hempel2008}. MicroPython \cite{George2014a} is a Python 3 version which supports microcontrollers \cite{George2014b} and includes support for generators and coroutines \cite{VanRossum2005, Python2017}.
 
