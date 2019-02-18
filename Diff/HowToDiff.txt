@@ -26,7 +26,7 @@ Copy the bibtex file SMS-Coro.bib to the working folder.
 
 5) Run the command line:
 
-  latexdiff Coroutines-SMS-37-combined.tex Coroutines-SMS-38-combined.tex > 37-38-diff-combined.tex --exclude-textcmd="section,subsection,title"
+  latexdiff Coroutines-SMS-37-combined.tex Coroutines-SMS-39-combined.tex > 37-39-diff-combined.tex --exclude-textcmd="section,subsection,title"
 
 The excluded commands are ones which cannot accept \DIF... as sub-components.
 

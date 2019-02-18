@@ -1,7 +1,7 @@
 \documentclass[format=acmsmall, review=false, screen=false]{acmart}
 %DIF LATEXDIFF DIFFERENCE FILE
 %DIF DEL Coroutines-SMS-37-combined.tex   Tue Feb 12 10:30:37 2019
-%DIF ADD Coroutines-SMS-39-combined.tex   Mon Feb 18 18:22:50 2019
+%DIF ADD Coroutines-SMS-39-combined.tex   Tue Feb 19 08:10:21 2019
 
 %\citestyle{acmnumeric}
 \citestyle{acmauthoryear}
@@ -163,15 +163,24 @@
 \email{bruce.belson@my.jcu.edu.au}
 
 \author{Jason Holdsworth}
-\affiliation{%
+\DIFdelbegin %DIFDELCMD < \affiliation{%
+%DIFDELCMD < 	\institution{James Cook University}
+%DIFDELCMD < 	\department{College of Business, Law \& Governance}
+%DIFDELCMD < 	%\city{Cairns}
+%DIFDELCMD < 	%\state{Queensland}
+%DIFDELCMD < 	%\postcode{4870}
+%DIFDELCMD < 	%\country{Australia}
+%DIFDELCMD < }
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \affiliation{%
 	\institution{James Cook University}
-	\department{College of Business, Law \& Governance}
+	\department{College of Science \& Engineering}
 	%\city{Cairns}
 	%\state{Queensland}
 	%\postcode{4870}
 	%\country{Australia}
 }
-\email{jason.holdsworth@jcu.edu.au}
+\DIFaddend \email{jason.holdsworth@jcu.edu.au}
 
 \author{Wei Xiang}
 \affiliation{%
@@ -196,7 +205,7 @@
 \email{bronson.philippa@jcu.edu.au}
 
 \DIFaddbegin \authorsaddresses{%
-Authors’ addresses: Bruce Belson, James Cook University, College of Science \& Engineering, Cairns, Queensland, 4870, Australia, bruce.belson@my.jcu.edu.au; Jason Holdsworth, James Cook University, College of Business, Law \& Governance, jason.holdsworth@jcu.edu.au; Wei Xiang (corresponding author), James Cook University, College of Science \& Engineering, wei.xiang@jcu.edu.au; Bronson Philippa (corresponding author), James Cook University, College of Science \& Engineering, bronson.philippa@jcu.edu.au.}
+Authors’ addresses: Bruce Belson, James Cook University, College of Science \& Engineering, Cairns, Queensland, 4870, Australia, bruce.belson@my.jcu.edu.au; Jason Holdsworth, James Cook University, College of Science \& Engineering, jason.holdsworth@jcu.edu.au; Wei Xiang (corresponding author), James Cook University, College of Science \& Engineering, wei.xiang@jcu.edu.au; Bronson Philippa (corresponding author), James Cook University, College of Science \& Engineering, bronson.philippa@jcu.edu.au.}
 
 \DIFaddend \begin{abstract}
 Many Internet of Things and embedded projects are event-driven, and therefore require asynchronous and concurrent programming. Current proposals for C++\DIFdelbegin \DIFdel{2020 }\DIFdelend \DIFaddbegin \DIFadd{20 }\DIFaddend suggest that coroutines will have native language support. It is timely to survey the current use of coroutines in embedded systems development.  This paper investigates existing research which uses or describes coroutines on resource-constrained platforms. The existing research is analysed with regard to: software platform, hardware platform and capacity; use cases and intended benefits; and the application programming interface design used for coroutines. A systematic mapping study was performed, to select studies published between 2007 and 2018 which contained original research into the application of coroutines on resource-constrained platforms. An initial set of 566 candidate papers, collated from on-line databases, were reduced to only 35 after filters were applied, revealing the following taxonomy. The C \& C++ programming languages were used by 22 studies out of 35. As regards hardware, 16 studies used 8- or 16-bit processors while 13 used 32-bit processors.  The four most common use cases were concurrency (17 papers), network communication (15), sensor readings (9) and data flow (7). The leading intended benefits were code style and simplicity (12 papers), scheduling (9) and efficiency (8). A wide variety of techniques have been used to implement coroutines, including native macros, additional \DIFdelbegin \DIFdel{tool-chain }\DIFdelend \DIFaddbegin \DIFadd{tool chain }\DIFaddend steps, new language features and non-portable assembly language. We conclude that there is widespread demand for coroutines on resource-constrained devices. Our findings suggest that there is significant demand for a formalised, stable, well-supported implementation of coroutines in C++, designed with consideration of the special needs of resource-constrained devices, and further that such an implementation would bring benefits specific to such devices.
@@ -976,7 +985,7 @@ The coding of three common use cases - communications, data-flow and sensor read
 
 Our survey indicates that multiple studies exist that require a coroutine-based facility for concurrent programming on resource-constrained devices, establishing that a demand exists at this end of the spectrum, not merely on high performance platforms. We noted in \DIFdelbegin \DIFdel{section }\DIFdelend \DIFaddbegin \DIFadd{Section }\DIFaddend \ref{analysis-of-api-design} that, where the language allowed fine-tuned management of memory allocation, dynamic allocation of memory was avoided for coroutine state and stack. We can conclude that avoiding heap memory is a requirement for the small devices that formed the bulk of the target platforms.
 
-While 82\% of non-C implementations \DIFdelbegin \DIFdel{were }\DIFdelend \DIFaddbegin \DIFadd{are }\DIFaddend stackful, only one of the C implementations \DIFdelbegin \DIFdel{was stackful: it can be concluded }\DIFdelend \DIFaddbegin \DIFadd{is stackful. We observe that when a language is designed from the ground up to support coroutines, then a stackful implementation is common. On the other hand, such a feature is difficult in C, while preserving both backward compatibility and acceptable memory usage. We conclude }\DIFaddend that a stackless implementation is important to C programmers, and this reflects the scarcity of memory resources on the platforms under consideration.
+While 82\% of non-C implementations \DIFdelbegin \DIFdel{were }\DIFdelend \DIFaddbegin \DIFadd{are }\DIFaddend stackful, only one of the C implementations \DIFdelbegin \DIFdel{was stackful: it can be concluded that a }\DIFdelend \DIFaddbegin \DIFadd{is stackful. We observe that when a language is designed from the ground up to support coroutines, then a stackful implementation is common. On the other hand, such a feature is difficult in C, while preserving both backward compatibility and acceptable memory usage. We conclude that a }\DIFaddend stackless implementation is important to C programmers, and this reflects the scarcity of memory resources on the platforms under consideration.
 
 None of the works studied utilize a coroutine implementation for C or C++ that provides managed variable state and that is designed specifically for an event-driven environment on a resource-constrained platform. We therefore conclude that this represents a significant research gap, and that further work towards such an implementation is warranted.
 
@@ -995,7 +1004,7 @@ This paper has analysed the current academic body of work regarding the use of a
 
 Future work could include the following:
 \begin{itemize}
-	\item Investigate whether the N4680 proposal can provide deterministic memory use, with full control over the detail of allocation and, if not, what changes would need to be made to the specification. Similarly, test whether the current implementations (Microsoft C++ 14.1 \cite{Microsoft2018} and LLVM 6.0.1 \cite{LLVMProject2018}) provide this determinism and control.
+	\item Investigate whether the N4680 proposal can provide deterministic memory use, with full control over the detail of allocation and, if not, what changes would need to be made to the specification. Similarly, test whether the current implementations (Microsoft C++ 14.1 \cite{Microsoft2018} and LLVM \DIFdelbegin \DIFdel{6.0}\DIFdelend \DIFaddbegin \DIFadd{7.0}\DIFaddend .1 \cite{LLVMProject2018}) provide this determinism and control.
 	\item Investigate whether the N4680 proposal and its implementations can work effectively in an event-driven environment on a resource-constrained platform, with and without a real-time operating system.
 	\item Study the memory and performance costs of the current N4680 implementations on resource-constrained platforms with minimal or no operating system support.
 \end{itemize}
