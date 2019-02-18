@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.4)  18 FEB 2019 11:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.4)  18 FEB 2019 18:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1215,15 +1215,15 @@ Package: settobox 2016/05/16 v1.5 Assign box dimensions to length registers (HO
 \DIFdelgraphicsbox=\box55
 \DIFdelgraphicswidth=\skip99
 \DIFdelgraphicsheight=\skip100
-LaTeX Info: Redefining \DIFaddbegin on input line 118.
-LaTeX Info: Redefining \DIFaddend on input line 119.
-LaTeX Info: Redefining \DIFdelbegin on input line 120.
-LaTeX Info: Redefining \DIFdelend on input line 121.
-LaTeX Info: Redefining \DIFaddbeginFL on input line 126.
-LaTeX Info: Redefining \DIFaddendFL on input line 127.
-LaTeX Info: Redefining \DIFdelbeginFL on input line 128.
-LaTeX Info: Redefining \DIFdelendFL on input line 129.
-Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 144
+LaTeX Info: Redefining \DIFaddbegin on input line 121.
+LaTeX Info: Redefining \DIFaddend on input line 122.
+LaTeX Info: Redefining \DIFdelbegin on input line 123.
+LaTeX Info: Redefining \DIFdelend on input line 124.
+LaTeX Info: Redefining \DIFaddbeginFL on input line 129.
+LaTeX Info: Redefining \DIFaddendFL on input line 130.
+LaTeX Info: Redefining \DIFdelbeginFL on input line 131.
+LaTeX Info: Redefining \DIFdelendFL on input line 132.
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 147
 .
 \c@theorem=\count165
 
@@ -1231,103 +1231,103 @@ Excluding comment 'screenonly' Include comment 'printonly'
 Include comment 'anonsuppress' (./37-39-diff-combined.aux)
 \openout1 = `37-39-diff-combined.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 144.
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 147.
 LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 14
-4.
+7.
 
 (e:/texlive/2018/texmf-dist/tex/latex/newtx/omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 144.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 144
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 147.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 147
 .
 
 (e:/texlive/2018/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 144.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 144.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 147.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 147.
 
 
 (e:/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 144.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 147.
 LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 14
-4.
+7.
 
 (e:/texlive/2018/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 144.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 147.
 LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 1
-44.
+47.
 
 (e:/texlive/2018/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 144.
+LaTeX Font Info:    ... okay on input line 147.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 144.
+(Font)              scaled to size 8.0pt on input line 147.
 LaTeX Font Info:    Try loading font information for OT1+LinuxLibertineT-TLF on
- input line 144.
+ input line 147.
 
 (e:/texlive/2018/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.fd
 File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 144.
+(Font)              scaled to size 8.0pt on input line 147.
 <<ot1.cmap>>
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.2pt on input line 144.
+(Font)              scaled to size 6.2pt on input line 147.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 144.
+(Font)              scaled to size 5.5pt on input line 147.
 <<oml.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 144.
+LaTeX Font Info:    Try loading font information for U+msa on input line 147.
  (e:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 144.
+LaTeX Font Info:    Try loading font information for U+msb on input line 147.
 
 (e:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 144
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 147
 .
 
 (e:/texlive/2018/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 144
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 147
 .
 
 (e:/texlive/2018/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 144
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 147
 .
 
 (e:/texlive/2018/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Info: Redefining \microtypecontext on input line 144.
+LaTeX Info: Redefining \microtypecontext on input line 147.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1344,7 +1344,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring OFF on input line 144.
+Package hyperref Info: Link coloring OFF on input line 147.
 
 (e:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1354,9 +1354,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count166
 )
-LaTeX Info: Redefining \ref on input line 144.
-LaTeX Info: Redefining \pageref on input line 144.
-LaTeX Info: Redefining \nameref on input line 144.
+LaTeX Info: Redefining \ref on input line 147.
+LaTeX Info: Redefining \pageref on input line 147.
+LaTeX Info: Redefining \nameref on input line 147.
 
 (./37-39-diff-combined.out) (./37-39-diff-combined.out)
 \@outlinefile=\write5
@@ -1448,62 +1448,62 @@ Package caption Info: End \AtBeginDocument code.
 
 Excluding 'CCSXML' comment.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 245.
+(Font)              scaled to size 14.4pt on input line 249.
 LaTeX Font Info:    Try loading font information for T1+LinuxBiolinumT-TLF on i
-nput line 245.
+nput line 249.
 
 (e:/texlive/2018/texmf-dist/tex/latex/libertine/T1LinuxBiolinumT-TLF.fd
 File: T1LinuxBiolinumT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/Lin
 uxBiolinumT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 245.
+(Font)              scaled to size 14.4pt on input line 249.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxBiolinumT-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 245.
+(Font)              scaled to size 14.4pt on input line 249.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 245.
+(Font)              scaled to size 10.95pt on input line 249.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 245.
+(Font)              scaled to size 10.95pt on input line 249.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 245.
+(Font)              scaled to size 9.0pt on input line 249.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 245.
+(Font)              scaled to size 9.0pt on input line 249.
 LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
- input line 245.
+ input line 249.
 
 (e:/texlive/2018/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
 File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 245.
+(Font)              scaled to size 8.0pt on input line 249.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 245.
+(Font)              scaled to size 9.0pt on input line 249.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 245.
+(Font)              scaled to size 9.0pt on input line 249.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 245.
+(Font)              scaled to size 9.0pt on input line 249.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 250.
+(Font)              scaled to size 10.0pt on input line 254.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 250.
+(Font)              scaled to size 10.0pt on input line 254.
 
 [1.1{e:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for T1+zi4 on input line 257.
+LaTeX Font Info:    Try loading font information for T1+zi4 on input line 263.
 
 (e:/texlive/2018/texmf-dist/tex/latex/inconsolata/t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 257.
+(Font)              scaled to size 10.0pt on input line 263.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1521,49 +1521,49 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3.3]
-Overfull \hbox (65.98065pt too wide) in paragraph at lines 300--301
+Overfull \hbox (65.98065pt too wide) in paragraph at lines 319--320
 []|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [
 ]   |   []   |   []   |   []   |   []
  []
 
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 339.
+nput line 360.
 [4.4]
-Overfull \hbox (14.28673pt too wide) in paragraph at lines 379--391
+Overfull \hbox (14.28673pt too wide) in paragraph at lines 400--412
 |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
   |   []   |   []
  []
 
 
-Overfull \hbox (17.1838pt too wide) in paragraph at lines 379--391
+Overfull \hbox (17.1838pt too wide) in paragraph at lines 400--412
 |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
   |   []   |   []   |   []   |   []   |   []
  []
 
 
-Overfull \hbox (31.86954pt too wide) in paragraph at lines 379--391
+Overfull \hbox (31.86954pt too wide) in paragraph at lines 400--412
 |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
   |   []   |   []   |   []   |   []   |   []   |   []
  []
 
 [5.5]
-<images/summary-of-search-and-selection-process.pdf, id=450, 674.52pt x 468.751
+<images/summary-of-search-and-selection-process.pdf, id=448, 674.52pt x 468.751
 25pt>
 File: images/summary-of-search-and-selection-process.pdf Graphic file (type pdf
 )
 <use images/summary-of-search-and-selection-process.pdf>
 Package pdftex.def Info: images/summary-of-search-and-selection-process.pdf  us
-ed on input line 428.
+ed on input line 449.
 (pdftex.def)             Requested size: 376.03015pt x 261.31873pt.
  [6.6 <./images/summary-of-search-and-selection-process.pdf>]
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 440.
+(Font)              scaled to size 10.0pt on input line 461.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 440.
+(Font)              scaled to size 7.3pt on input line 461.
 
 (e:/texlive/2018/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
@@ -1571,36 +1571,36 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (e:/texlive/2018/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 444--444
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
 []|\T1/LinuxLibertineT-TLF/m/n/10 (+20) coroutine OR "light-weight
  []
 
 [7.7]
-Overfull \hbox (22.64558pt too wide) in paragraph at lines 469--471
+Overfull \hbox (22.64558pt too wide) in paragraph at lines 490--492
 |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
   |   []   |   []   |   []   |   []   |   []   |   []
  []
 
 [8.8]
-<images/RQ1a-Programming-languages-used.pdf, id=867, 562.1pt x 297.11pt>
+<images/RQ1a-Programming-languages-used.pdf, id=866, 562.1pt x 297.11pt>
 File: images/RQ1a-Programming-languages-used.pdf Graphic file (type pdf)
 <use images/RQ1a-Programming-languages-used.pdf>
 Package pdftex.def Info: images/RQ1a-Programming-languages-used.pdf  used on in
-put line 628.
+put line 649.
 (pdftex.def)             Requested size: 189.9931pt x 100.42216pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 628--629
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 649--650
  [][][] 
  []
 
-<images/RQ1b-Coroutine-implementation.pdf, id=868, 496.85625pt x 276.03125pt>
+<images/RQ1b-Coroutine-implementation.pdf, id=867, 496.85625pt x 276.03125pt>
 File: images/RQ1b-Coroutine-implementation.pdf Graphic file (type pdf)
 <use images/RQ1b-Coroutine-implementation.pdf>
 Package pdftex.def Info: images/RQ1b-Coroutine-implementation.pdf  used on inpu
-t line 634.
+t line 655.
 (pdftex.def)             Requested size: 182.081pt x 101.15701pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 634--635
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 655--656
  [][][] 
  []
 
@@ -1608,38 +1608,38 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 634--635
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9.9]
-<images/RQ1c-Operating-systems-used-in-selected-c-like-studies.pdf, id=946, 496
+<images/RQ1c-Operating-systems-used-in-selected-c-like-studies.pdf, id=945, 496
 .85625pt x 263.98625pt>
 File: images/RQ1c-Operating-systems-used-in-selected-c-like-studies.pdf Graphic
  file (type pdf)
 <use images/RQ1c-Operating-systems-used-in-selected-c-like-studies.pdf>
 Package pdftex.def Info: images/RQ1c-Operating-systems-used-in-selected-c-like-
-studies.pdf  used on input line 681.
+studies.pdf  used on input line 702.
 (pdftex.def)             Requested size: 197.91124pt x 105.15355pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/RQ2b-c-Memory.pdf, id=948, 496.85625pt x 316.18124pt>
+<images/RQ2b-c-Memory.pdf, id=947, 496.85625pt x 316.18124pt>
 File: images/RQ2b-c-Memory.pdf Graphic file (type pdf)
 <use images/RQ2b-c-Memory.pdf>
-Package pdftex.def Info: images/RQ2b-c-Memory.pdf  used on input line 711.
+Package pdftex.def Info: images/RQ2b-c-Memory.pdf  used on input line 732.
 (pdftex.def)             Requested size: 182.081pt x 115.87076pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 711--712
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 732--733
  [][][] 
  []
 
-<images/RQ2d-Processor-families-arranged-by-bits.pdf, id=949, 496.85625pt x 316
+<images/RQ2d-Processor-families-arranged-by-bits.pdf, id=948, 496.85625pt x 316
 .18124pt>
 File: images/RQ2d-Processor-families-arranged-by-bits.pdf Graphic file (type pd
 f)
 <use images/RQ2d-Processor-families-arranged-by-bits.pdf>
 Package pdftex.def Info: images/RQ2d-Processor-families-arranged-by-bits.pdf  u
-sed on input line 717.
+sed on input line 738.
 (pdftex.def)             Requested size: 182.081pt x 115.87076pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 717--718
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 738--739
  [][][] 
  []
 
@@ -1652,24 +1652,24 @@ implementation.pdf
 pdfTeX warning: pdflatex.exe (file ./images/RQ1b-Coroutine-implementation.pdf):
  PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<images/RQ3-Use-cases.pdf, id=982, 496.85625pt x 263.98625pt>
+<images/RQ3-Use-cases.pdf, id=981, 496.85625pt x 263.98625pt>
 File: images/RQ3-Use-cases.pdf Graphic file (type pdf)
 <use images/RQ3-Use-cases.pdf>
-Package pdftex.def Info: images/RQ3-Use-cases.pdf  used on input line 771.
+Package pdftex.def Info: images/RQ3-Use-cases.pdf  used on input line 792.
 (pdftex.def)             Requested size: 182.081pt x 96.74289pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 771--772
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 792--793
  [][][] 
  []
 
-<images/RQ4-Intended-benefits.pdf, id=983, 496.85625pt x 263.98625pt>
+<images/RQ4-Intended-benefits.pdf, id=982, 496.85625pt x 263.98625pt>
 File: images/RQ4-Intended-benefits.pdf Graphic file (type pdf)
 <use images/RQ4-Intended-benefits.pdf>
 Package pdftex.def Info: images/RQ4-Intended-benefits.pdf  used on input line 7
-77.
+98.
 (pdftex.def)             Requested size: 182.081pt x 96.74289pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 777--778
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 798--799
  [][][] 
  []
 
@@ -1687,18 +1687,18 @@ pdfTeX warning: pdflatex.exe (file ./images/RQ2d-Processor-families-arranged-by
 -bits.pdf): PDF inclusion: multiple pdfs with page group included in a single p
 age
 >]
-<images/RQ5-API-characteristics.pdf, id=1033, 496.85625pt x 263.98625pt>
+<images/RQ5-API-characteristics.pdf, id=1032, 496.85625pt x 263.98625pt>
 File: images/RQ5-API-characteristics.pdf Graphic file (type pdf)
 <use images/RQ5-API-characteristics.pdf>
 Package pdftex.def Info: images/RQ5-API-characteristics.pdf  used on input line
- 806.
+ 827.
 (pdftex.def)             Requested size: 182.081pt x 96.74289pt.
-<images/RQ5e-Allocation-of-coroutine-state.pdf, id=1034, 496.85625pt x 263.9862
+<images/RQ5e-Allocation-of-coroutine-state.pdf, id=1033, 496.85625pt x 263.9862
 5pt>
 File: images/RQ5e-Allocation-of-coroutine-state.pdf Graphic file (type pdf)
 <use images/RQ5e-Allocation-of-coroutine-state.pdf>
 Package pdftex.def Info: images/RQ5e-Allocation-of-coroutine-state.pdf  used on
- input line 812.
+ input line 833.
 (pdftex.def)             Requested size: 182.081pt x 96.74289pt.
  [12.12 <./images/RQ3-Use-cases.pdf> <./images/RQ4-Intended-benefits.pdf
 
@@ -1713,29 +1713,29 @@ nclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./images/RQ5e-Allocation-of-coroutine-state.
 pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<images/RQ5b-c-d-API-characteristics-by-language.pdf, id=1084, 489.83pt x 360.3
+<images/RQ5b-c-d-API-characteristics-by-language.pdf, id=1083, 489.83pt x 360.3
 4625pt>
 File: images/RQ5b-c-d-API-characteristics-by-language.pdf Graphic file (type pd
 f)
 <use images/RQ5b-c-d-API-characteristics-by-language.pdf>
 Package pdftex.def Info: images/RQ5b-c-d-API-characteristics-by-language.pdf  u
-sed on input line 830.
+sed on input line 851.
 (pdftex.def)             Requested size: 217.70357pt x 160.15288pt.
 
-Overfull \hbox (2.26517pt too wide) in paragraph at lines 853--858
+Overfull \hbox (2.26517pt too wide) in paragraph at lines 874--879
 \T1/LinuxLibertineT-TLF/m/n/10 (-20) pro-vide sup-port for man-ag-ing con-trol 
 flow. (The only ex-cep-tion is []|   []
  []
 
 [13.13 <./images/RQ5b-c-d-API-characteristics-by-language.pdf>]
-<images/coroutine-state-venn-diagram.pdf, id=1110, 557.08125pt x 294.09875pt>
+<images/coroutine-state-venn-diagram.pdf, id=1109, 557.08125pt x 294.09875pt>
 File: images/coroutine-state-venn-diagram.pdf Graphic file (type pdf)
 <use images/coroutine-state-venn-diagram.pdf>
 Package pdftex.def Info: images/coroutine-state-venn-diagram.pdf  used on input
- line 866.
+ line 887.
 (pdftex.def)             Requested size: 296.86687pt x 156.72871pt.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 921.
+(Font)              scaled to size 10.0pt on input line 942.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1900,22 +1900,184 @@ Underfull \vbox (badness 6396) has occurred while \output is active []
 
  [21.21])
 [22.22]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 999.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 999.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1018.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1018.
  (./37-39-diff-combined.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 999.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 999.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1018.
+
+
+ *File List*
+  acmart.cls    2018/07/16 v1.54 Typesetting articles for the Association for C
+omputing Machinery
+ xkeyval.sty    2014/12/03 v2.7a package option processing (HA)
+ xkeyval.tex    2014/12/03 v2.7a key=value parser (HA)
+ xstring.sty    2013/10/13  v1.7c  String manipulations (C Tellechea)
+  amsart.cls    2017/10/31 v2.20.4
+ amsmath.sty    2017/09/02 v2.17a AMS math features
+ amstext.sty    2000/06/29 v2.01 AMS text
+  amsgen.sty    1999/11/30 v2.0 generic functions
+  amsbsy.sty    1999/11/29 v1.2d Bold Symbols
+  amsopn.sty    2016/03/08 v2.02 operator names
+    umsa.fd    2013/01/14 v3.01 AMS symbols A
+amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
+microtype.sty    2018/01/14 v2.7a Micro-typographical refinements (RS)
+microtype-pdftex.def    2018/01/14 v2.7a Definitions specific to pdftex (RS)
+microtype.cfg    2018/01/14 v2.7a microtype main configuration file (RS)
+etoolbox.sty    2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+refcount.sty    2016/05/16 v3.5 Data extraction from label references (HO)
+ ltxcmds.sty    2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+infwarerr.sty    2016/05/16 v1.4 Providing info/warning/error messages (HO)
+totpages.sty    2005/09/19 v2.00 Totpages Package (muewi)
+everyshi.sty    2001/05/15 v3.00 EveryShipout Package (MS)
+ environ.sty    2014/05/04 v0.3 A new way to define environments
+trimspaces.sty    2009/09/17 v1.1 Trim spaces around a token list
+textcase.sty    2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+  natbib.sty    2010/09/13 8.31b (PWD, AO)
+hyperref.sty    2018/02/06 v6.86b Hypertext links for LaTeX
+hobsub-hyperref.sty    2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+hobsub-generic.sty    2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+  hobsub.sty    2016/05/16 v1.14 Construct package bundles (HO)
+ifluatex.sty    2016/05/16 v1.4 Provides the ifluatex switch (HO)
+  ifvtex.sty    2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+ intcalc.sty    2016/05/16 v1.2 Expandable calculations with integers (HO)
+   ifpdf.sty    2017/03/15 v3.2 Provides the ifpdf switch
+etexcmds.sty    2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+kvsetkeys.sty    2016/05/16 v1.17 Key value parser (HO)
+kvdefinekeys.sty    2016/05/16 v1.4 Define keys (HO)
+pdftexcmds.sty    2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO)
+pdfescape.sty    2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+bigintcalc.sty    2016/05/16 v1.4 Expandable calculations on big integers (HO)
+  bitset.sty    2016/05/16 v1.2 Handle bit-vector datatype (HO)
+uniquecounter.sty    2016/05/16 v1.3 Provide unlimited unique counter (HO)
+letltxmacro.sty    2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+ hopatch.sty    2016/05/16 v1.3 Wrapper for package hooks (HO)
+xcolor-patch.sty    2016/05/16 xcolor patch
+atveryend.sty    2016/05/16 v1.9 Hooks at the very end of document (HO)
+atbegshi.sty    2016/06/09 v1.18 At begin shipout hook (HO)
+ hycolor.sty    2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+ ifxetex.sty    2010/09/12 v0.6 Provides ifxetex conditional
+ auxhook.sty    2016/05/16 v1.4 Hooks for auxiliary files (HO)
+kvoptions.sty    2016/05/16 v3.12 Key value format for package options (HO)
+  pd1enc.def    2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+hyperref.cfg    2002/06/06 v1.2 hyperref configuration of TeXLive
+   puenc.def    2018/02/06 v6.86b Hyperref: PDF Unicode definition (HO)
+     url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
+ hpdftex.def    2018/02/06 v6.86b Hyperref driver for pdfTeX
+rerunfilecheck.sty    2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+graphicx.sty    2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+graphics.sty    2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    2016/01/03 v1.10 sin cos tan (DPC)
+graphics.cfg    2016/06/04 v1.11 sample graphics configuration
+  pdftex.def    2018/01/08 v1.0l Graphics/color driver for pdftex
+  xcolor.sty    2016/05/11 v2.12 LaTeX color extensions (UK)
+   color.cfg    2016/01/02 v1.6 sample color configuration
+geometry.sty    2018/04/16 v5.8 Page Geometry
+manyfoot.sty    2005/09/11 v1.10 Many Footnote Levels Package (NCC)
+nccfoots.sty    2005/02/03 v1.2 NCC Footnotes Package (NCC)
+   iftex.sty    2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX,
+ and LuaTeX
+glyphtounicode.tex
+    cmap.sty    2008/03/06 v1.0h CMap support: searchable PDF
+ fontenc.sty
+   t1enc.def    2017/04/05 v2.0i Standard LaTeX file
+libertine.sty    2018/01/03 (Bob Tennent) Supports Libertine and Biolinum fonts
+ for all LaTeX engines.
+textcomp.sty    2017/04/05 v2.0i Standard LaTeX package
+  ts1enc.def    2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+  ts1enc.dfu    2018/04/05 v1.2c UTF-8 support for inputenc
+mweights.sty    2017/03/30 (Bob Tennent) Support package for multiple-weight fo
+nt packages. 
+ fontenc.sty
+fontaxes.sty    2014/03/23 v1.0d Font selection axes
+LinLibertine_I.tex
+     zi4.sty    2017/01/04 v1.112
+newtxmath.sty    2018/05/15 v1.553
+centernot.sty    2016/05/16 v1.4 Centers the not symbol horizontally (HO)
+  binhex.tex
+ caption.sty    2018/05/01 v3.3-147 Customizing captions (AR)
+caption3.sty    2018/05/27 v1.8a caption3 kernel (AR)
+   float.sty    2001/11/08 v1.3d Float enhancements (AL)
+ comment.sty    
+fancyhdr.sty    2017/06/30 v3.9a Extensive control of page headers and footers
+t1linuxlibertinet-tlf.fd
+booktabs.sty    2016/04/27 v1.618033 publication quality tables
+algorithm2e.sty    2017/07/18 v5.2 algorithms environments
+  ifthen.sty    2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+ifoddpage.sty    2016/04/23 v1.1 Conditionals for odd/even page detection
+  xspace.sty    2014/10/28 v1.13 Space after command names (DPC,MH)
+ relsize.sty    2013/03/29 ver 4.1
+listings.sty    2015/06/04 1.6 (Carsten Heinz)
+ lstmisc.sty    2015/06/04 1.6 (Carsten Heinz)
+listings.cfg    2015/06/04 1.6 listings configuration
+lstlang1.sty    2015/06/04 1.6 listings language file
+lstlang1.sty    2015/06/04 1.6 listings language file
+ lstmisc.sty    2015/06/04 1.6 (Carsten Heinz)
+ amssymb.sty    2013/01/14 v3.01 AMS font symbols
+threeparttable.sty    2003/06/13  v 3.0
+subcaption.sty    2018/05/01 v1.1-162 Sub-captions (AR)
+longtable.sty    2014/10/28 v4.11 Multi-page Table package (DPC)
+multirow.sty    2018/08/03 v2.3 Span multiple rows of a table
+makecell.sty    2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+   array.sty    2018/04/30 v2.4h Tabular extension package (FMi)
+rotating.sty    2016/08/11 v2.16d rotated objects in LaTeX
+    ulem.sty    2012/05/18
+settobox.sty    2016/05/16 v1.5 Assign box dimensions to length registers (HO)
+omlnxlmi.fd    2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
+ untxexa.fd    2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
+  ts1cmr.fd    2014/09/29 v2.5h Standard LaTeX font definitions
+lmsntxsy.fd    2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
+lmxntxexx.fd    2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
+ot1linuxlibertinet-tlf.fd
+    umsa.fd    2013/01/14 v3.01 AMS symbols A
+    umsb.fd    2013/01/14 v3.01 AMS symbols B
+ untxmia.fd    2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
+ untxsym.fd    2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
+ untxsyc.fd    2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
+ nameref.sty    2016/05/21 v2.44 Cross-referencing by name of section
+gettitlestring.sty    2016/05/16 v1.5 Cleanup title references (HO)
+37-39-diff-combined.out
+37-39-diff-combined.out
+supp-pdf.mkii
+epstopdf-base.sty    2016/05/15 v2.6 Base part for package epstopdf
+  grfext.sty    2016/05/16 v1.2 Manage graphics extensions (HO)
+epstopdf-sys.cfg    2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+ upquote.sty    2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbat
+im
+ltcaption.sty    2013/06/09 v1.4-94 longtable captions (AR)
+t1linuxbiolinumt-tlf.fd
+ts1linuxlibertinet-tlf.fd
+   t1zi4.fd    2018/01/14 T1/zi4 (Inconsolata)
+images/summary-of-search-and-selection-process.pdf
+  mt-msa.cfg    2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+  mt-msb.cfg    2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+images/RQ1a-Programming-languages-used.pdf
+images/RQ1b-Coroutine-implementation.pdf
+images/RQ1c-Operating-systems-used-in-selected-c-like-studies.pdf
+images/RQ2b-c-Memory.pdf
+images/RQ2d-Processor-families-arranged-by-bits.pdf
+images/RQ3-Use-cases.pdf
+images/RQ4-Intended-benefits.pdf
+images/RQ5-API-characteristics.pdf
+images/RQ5e-Allocation-of-coroutine-state.pdf
+images/RQ5b-c-d-API-characteristics-by-language.pdf
+images/coroutine-state-venn-diagram.pdf
+ comment.cut
+37-39-diff-combined.bbl
+ ***********
+
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1018.
+
 Package rerunfilecheck Info: File `37-39-diff-combined.out' has not changed.
 (rerunfilecheck)             Checksum: 94E101BD3CBD00E793A4CBD3B3769831;5666.
  ) 
 Here is how much of TeX's memory you used:
- 22170 strings out of 492642
- 334009 string characters out of 6133163
- 488836 words of memory out of 5000000
- 24871 multiletter control sequences out of 15000+600000
- 147112 words of font info for 366 fonts, out of 8000000 for 9000
+ 22175 strings out of 492642
+ 334277 string characters out of 6133163
+ 490138 words of memory out of 5000000
+ 24894 multiletter control sequences out of 15000+600000
+ 145474 words of font info for 354 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,16n,97p,1975b,2044s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,16n,97p,2121b,2044s stack positions out of 5000i,500n,10000p,200000b,80000s
 {e:/texlive/2018/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-4.enc}{e:/texli
 ve/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{e:/texlive/2018/t
 exmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{e:/texlive/2018/texmf-dist
@@ -1930,10 +2092,10 @@ ineTB.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibertine
 TI.pfb><e:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy6.p
 fb><e:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsya.pfb><e:/texlive
 /2018/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on 37-39-diff-combined.pdf (22 pages, 1730572 bytes).
+Output written on 37-39-diff-combined.pdf (22 pages, 1730542 bytes).
 PDF statistics:
- 1446 PDF objects out of 1728 (max. 8388607)
- 1260 compressed objects within 13 object streams
+ 1445 PDF objects out of 1728 (max. 8388607)
+ 1259 compressed objects within 13 object streams
  188 named destinations out of 1000 (max. 500000)
  48985 words of extra memory for PDF output out of 51595 (max. 10000000)
 

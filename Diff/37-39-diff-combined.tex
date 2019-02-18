@@ -1,7 +1,7 @@
 \documentclass[format=acmsmall, review=false, screen=false]{acmart}
 %DIF LATEXDIFF DIFFERENCE FILE
 %DIF DEL Coroutines-SMS-37-combined.tex   Tue Feb 12 10:30:37 2019
-%DIF ADD Coroutines-SMS-39-combined.tex   Mon Feb 18 11:47:49 2019
+%DIF ADD Coroutines-SMS-39-combined.tex   Mon Feb 18 18:22:50 2019
 
 %\citestyle{acmnumeric}
 \citestyle{acmauthoryear}
@@ -66,6 +66,9 @@
 %\received[revised]{March 2009}
 %\received[accepted]{June 2009}
 
+%DIF 66a66
+\listfiles %DIF > 
+%DIF -------
 
 % Document starts
 %DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
@@ -192,10 +195,11 @@
 }
 \email{bronson.philippa@jcu.edu.au}
 
+\DIFaddbegin \authorsaddresses{%
+Authors’ addresses: Bruce Belson, James Cook University, College of Science \& Engineering, Cairns, Queensland, 4870, Australia, bruce.belson@my.jcu.edu.au; Jason Holdsworth, James Cook University, College of Business, Law \& Governance, jason.holdsworth@jcu.edu.au; Wei Xiang (corresponding author), James Cook University, College of Science \& Engineering, wei.xiang@jcu.edu.au; Bronson Philippa (corresponding author), James Cook University, College of Science \& Engineering, bronson.philippa@jcu.edu.au.}
 
-
-\begin{abstract}
-Many Internet of Things and embedded projects are event-driven, and therefore require asynchronous and concurrent programming. Current proposals for C++2020 suggest that coroutines will have native language support. It is timely to survey the current use of coroutines in embedded systems development.  This paper investigates existing research which uses or describes coroutines on resource-constrained platforms. The existing research is analysed with regard to: software platform, hardware platform and capacity; use cases and intended benefits; and the application programming interface design used for coroutines. A systematic mapping study was performed, to select studies published between 2007 and 2018 which contained original research into the application of coroutines on resource-constrained platforms. An initial set of 566 candidate papers, collated from on-line databases, were reduced to only 35 after filters were applied, revealing the following taxonomy. The C \& C++ programming languages were used by 22 studies out of 35. As regards hardware, 16 studies used 8- or 16-bit processors while 13 used 32-bit processors.  The four most common use cases were concurrency (17 papers), network communication (15), sensor readings (9) and data flow (7). The leading intended benefits were code style and simplicity (12 papers), scheduling (9) and efficiency (8). A wide variety of techniques have been used to implement coroutines, including native macros, additional tool-chain steps, new language features and non-portable assembly language. We conclude that there is widespread demand for coroutines on resource-constrained devices. Our findings suggest that there is significant demand for a formalised, stable, well-supported implementation of coroutines in C++, designed with consideration of the special needs of resource-constrained devices, and further that such an implementation would bring benefits specific to such devices.
+\DIFaddend \begin{abstract}
+Many Internet of Things and embedded projects are event-driven, and therefore require asynchronous and concurrent programming. Current proposals for C++\DIFdelbegin \DIFdel{2020 }\DIFdelend \DIFaddbegin \DIFadd{20 }\DIFaddend suggest that coroutines will have native language support. It is timely to survey the current use of coroutines in embedded systems development.  This paper investigates existing research which uses or describes coroutines on resource-constrained platforms. The existing research is analysed with regard to: software platform, hardware platform and capacity; use cases and intended benefits; and the application programming interface design used for coroutines. A systematic mapping study was performed, to select studies published between 2007 and 2018 which contained original research into the application of coroutines on resource-constrained platforms. An initial set of 566 candidate papers, collated from on-line databases, were reduced to only 35 after filters were applied, revealing the following taxonomy. The C \& C++ programming languages were used by 22 studies out of 35. As regards hardware, 16 studies used 8- or 16-bit processors while 13 used 32-bit processors.  The four most common use cases were concurrency (17 papers), network communication (15), sensor readings (9) and data flow (7). The leading intended benefits were code style and simplicity (12 papers), scheduling (9) and efficiency (8). A wide variety of techniques have been used to implement coroutines, including native macros, additional \DIFdelbegin \DIFdel{tool-chain }\DIFdelend \DIFaddbegin \DIFadd{tool chain }\DIFaddend steps, new language features and non-portable assembly language. We conclude that there is widespread demand for coroutines on resource-constrained devices. Our findings suggest that there is significant demand for a formalised, stable, well-supported implementation of coroutines in C++, designed with consideration of the special needs of resource-constrained devices, and further that such an implementation would bring benefits specific to such devices.
 \end{abstract}
 
 
@@ -254,7 +258,12 @@ The Internet of Things (IoT) \cite{Al-Fuqaha2015, Atzori2010, Gubbi2013} continu
 
 Many IoT and embedded systems \DIFdelbegin \DIFdel{software }\DIFdelend have an event-driven architecture\DIFdelbegin \DIFdel{and }\DIFdelend \DIFaddbegin \DIFadd{; their software is consequently implemented in }\DIFaddend an asynchronous programming style, whereby multiple tasks wait on external events. Asynchronous code is challenging to write because application logic becomes split between the function initiating the request and the event handler that is invoked when the response is ready \cite{Gay2003, Levis2002, Meijer2010}. This “split-phase” architecture becomes increasingly complex when the developer introduces more event sources (such as timeouts) with their own event handlers. \DIFaddbegin \DIFadd{There may be interaction between various split-phase events, which can add degrees of freedom to the various state models: consequently there is an increasing likelihood that the source code addressing a single event is split between separate locations, forcing the reader to jump between them. }\DIFaddend Application logic is obscured by the split-phase fragmentation, leading to a gap between the design of the system and its source code representation, making the code harder to understand and more difficult to maintain \cite{Brodu2015, Edwards2009, Madsen2017, Kambona2013}.
 
-A solution to the split-phase problem for desktop software has been language support for coroutines \cite{Conway1963, Knuth1968, Marlin1979} and promises \cite{Brodu2015, Liskov1988, Madsen2017}. For example, in C\#, JavaScript, and Python, developers can use an “await” keyword to wait on an external event. This means that asynchronous code can be written just as clearly as the equivalent code in a synchronous style that uses blocking code. However, resource-constrained embedded systems are overwhelmingly programmed in C or \verb!C++! \cite{AspenCore2017, Skerrett2017}, which lack support for the “await” pattern.
+A solution to the split-phase problem for desktop software has been language support for coroutines \cite{Conway1963, Knuth1968, Marlin1979} and promises \cite{Brodu2015, Liskov1988, Madsen2017}. For example, in C\#, JavaScript, and Python, developers can use an “await” keyword to wait on an external event. This means that asynchronous code can be written just as clearly as the equivalent code in a synchronous style that uses blocking code. However, resource-constrained embedded systems are overwhelmingly programmed in C or \DIFdelbegin %
+{\color{red}%DIFAUXCMD
+\verb!C++! %DIFAUXCMD
+}%DIFAUXCMD
+%DIFDELCMD < \verb!C++! %%%
+\DIFdelend \DIFaddbegin \DIFadd{C++ }\DIFaddend \cite{AspenCore2017, Skerrett2017}, which lack support for the “await” pattern.
 
 The C++ standardisation committee is currently debating the inclusion of coroutines, and at least two competing designs have been proposed \cite{ISO2017, Romer2018}. The addition of coroutines to C++ would create an opportunity to simplify embedded systems code. \DIFdelbegin %DIFDELCMD < 
 
@@ -278,7 +287,17 @@ Much of the program flow in IoT and embedded device programs is asynchronous, fo
 
 Alternatively, there are two common patterns for a simpler and more robust design. The first, continuation-passing style (CPS), which is seen commonly in JavaScript, can lead to the “pyramid of doom” or “callback hell” phenomenon \cite{Brodu2015, Edwards2009, Madsen2017, Kambona2013} when multiple sequential operations are composed.
 
-A more elegant approach is the async/await pattern \cite{Bierman2012, Haller2016, Okur2014, Syme2011}, which is a popular device for transforming continuation-passing style code into direct programming style, with all the asynchronous steps of a sequence written in a single ordered sequence within a single block of code. The pattern has been used successfully in several languages, notably \verb!C#! \cite{Bierman2012, Okur2014} and JavaScript, as part of the ECMAScript 2018 proposal \cite{ECMA2017}; in C++, proposals are currently being considered for inclusion in the \verb!C++! \verb!2020! standard, using new keywords ‘co\_await’, ‘co\_yield’ and ‘co\_return’ or alternative syntax \cite{ISO2017, Romer2018}. The async/await pattern allows the programmer to write a single continuous set of statements in a direct programming style, which will be performed in the correct order, even when they are run asynchronously as a set of separate events. Furthermore, the pattern avoids the explicit use of global variables.
+A more elegant approach is the async/await pattern \cite{Bierman2012, Haller2016, Okur2014, Syme2011}, which is a popular device for transforming continuation-passing style code into direct programming style, with all the asynchronous steps of a sequence written in a single ordered sequence within a single block of code. The pattern has been used successfully in several languages, notably \DIFdelbegin %
+{\color{red}%DIFAUXCMD
+\verb!C#! %DIFAUXCMD
+}%DIFAUXCMD
+%DIFDELCMD < \verb!C#! %%%
+\DIFdelend \DIFaddbegin \DIFadd{C\# }\DIFaddend \cite{Bierman2012, Okur2014} and JavaScript, as part of the ECMAScript 2018 proposal \cite{ECMA2017}; in C++, proposals are currently being considered for inclusion in the \DIFdelbegin %
+{\color{red}%DIFAUXCMD
+\verb!C++! %DIFAUXCMD
+}%DIFAUXCMD
+%DIFDELCMD < \verb!C++! \verb!2020! %%%
+\DIFdelend \DIFaddbegin \DIFadd{C++ 2020 }\DIFaddend standard, using new keywords ‘co\_await’, ‘co\_yield’ and ‘co\_return’ or alternative syntax \cite{ISO2017, Romer2018}. The async/await pattern allows the programmer to write a single continuous set of statements in a direct programming style, which will be performed in the correct order, even when they are run asynchronously as a set of separate events. Furthermore, the pattern avoids the explicit use of global variables.
 
 \subsection{Coroutines}
 
@@ -314,7 +333,9 @@ Coroutine implementations may be further categorised into stackful or stackless 
 
 Protothreads (and any other solution based on Duff’s device) can be considered to suffer from two serious defects. First, their use adds a serious constraint to C programs: switch statements cannot be used safely in programs that use Protothreads; they may cause errors that are not detected by the compiler but cause unpredictable behaviour at run-time. Second, they do not manage local variable state on behalf of the programmer: any variable within the coroutine whose state should be maintained between calls must be declared as static (global) \cite{Dunkels2005b}. This has consequences for reentrancy, and for code quality. On the other hand, they are an extremely cheap solution in terms of coding effort, memory use and speed, and they are portable, because they use pure C. The original library is written in C; it has been ported to C++ \cite{Paisley2006}.
 
-Listing \ref{protothreads} contains a fragment of code that used Protothreads to implement part of an asynchronous producer/consumer pattern. Listing \ref{coawait} shows a similar code fragment, this time using C{}\verb!++! language features, including the co\_await keyword of the current C{}\verb!++! standardisation proposal N4680. \DIFaddbegin \DIFadd{We observe several differences between the two. Listing \ref{coawait} contains fewer lines of code than Listing \ref{protothreads}; Listing \ref{coawait} does not contain macros; Listing \ref{protothreads} requires that local variables be declared as ‘static’, but Listing \ref{coawait} does not. While both code fragments present conceptual changes from the synchronous equivalent, we believe that the change in Listing \ref{coawait} is more transparent and more clearly presented.
+Listing \ref{protothreads} contains a fragment of code that used Protothreads to implement part of an asynchronous producer/consumer pattern. Listing \ref{coawait} shows a similar code fragment, this time using C\DIFdelbegin %DIFDELCMD < {}\verb!++! %%%
+\DIFdelend \DIFaddbegin \DIFadd{++ }\DIFaddend language features, including the co\_await keyword of the current C\DIFdelbegin %DIFDELCMD < {}\verb!++! %%%
+\DIFdelend \DIFaddbegin \DIFadd{++ }\DIFaddend standardisation proposal N4680. \DIFaddbegin \DIFadd{We observe several differences between the two. Listing \ref{coawait} contains fewer lines of code than Listing \ref{protothreads}; Listing \ref{coawait} does not contain macros; Listing \ref{protothreads} requires that local variables be declared as ‘static’, but Listing \ref{coawait} does not. While both code fragments present conceptual changes from the synchronous equivalent, we believe that the change in Listing \ref{coawait} is more transparent and more clearly presented.
 }\DIFaddend 
 
 \DIFdelbegin %DIFDELCMD < \begin{lstlisting}%DIFDELCMD < [language=C, caption=Fragment of Protothreads code for asynchronous producer/consumer threads, label=protothreads]
@@ -640,9 +661,9 @@ The research identified 35 papers of relevance, of which 21 described coroutine 
 
 \DIFaddend \subsection{Coroutine implementation}
 
-To implement coroutines, 27 papers (77\%) used a native method, i.e. avoiding techniques that required a new or changed \DIFdelbegin \DIFdel{tool-chain}\DIFdelend \DIFaddbegin \DIFadd{toolchain}\DIFaddend . In native implementations, \DIFdelbegin \DIFdel{macros (}\DIFdelend 13 papers \DIFdelbegin \DIFdel{) and libraries (}\DIFdelend \DIFaddbegin \DIFadd{employed macros (of which 7 were based on Duff’s device) and }\DIFaddend 4 \DIFdelbegin \DIFdel{papers) were common}\DIFdelend \DIFaddbegin \DIFadd{used libraries}\DIFaddend ; in 3 papers (\cite{Yu2008, Cohen2007b, Kalebe2017}) the C setjmp/longjmp language device was used.
+To implement coroutines, 27 papers (77\%) used a native method, i.e. avoiding techniques that required a new or changed \DIFdelbegin \DIFdel{tool-chain}\DIFdelend \DIFaddbegin \DIFadd{tool chain}\DIFaddend . In native implementations, \DIFdelbegin \DIFdel{macros (}\DIFdelend 13 papers \DIFdelbegin \DIFdel{) and libraries (}\DIFdelend \DIFaddbegin \DIFadd{employed macros (of which 7 were based on Duff’s device) and }\DIFaddend 4 \DIFdelbegin \DIFdel{papers) were common}\DIFdelend \DIFaddbegin \DIFadd{used libraries}\DIFaddend ; in 3 papers (\cite{Yu2008, Cohen2007b, Kalebe2017}) the C setjmp/longjmp language device was used.
 
-Several studies extended the \DIFdelbegin \DIFdel{tool-chain }\DIFdelend \DIFaddbegin \DIFadd{toolchain }\DIFaddend or created a new tool. \DIFdelbegin \DIFdel{2 }\DIFdelend \DIFaddbegin \DIFadd{Two }\DIFaddend papers contributed new languages \cite{Jahier2016, Evers2007}, and one paper \cite{Niebert2014} provided a set of language extensions. \DIFdelbegin \DIFdel{2 papers \mbox{%DIFAUXCMD
+Several studies extended the \DIFdelbegin \DIFdel{tool-chain }\DIFdelend \DIFaddbegin \DIFadd{tool chain }\DIFaddend or created a new tool. \DIFdelbegin \DIFdel{2 }\DIFdelend \DIFaddbegin \DIFadd{Two }\DIFaddend papers contributed new languages \cite{Jahier2016, Evers2007}, and one paper \cite{Niebert2014} provided a set of language extensions. \DIFdelbegin \DIFdel{2 papers \mbox{%DIFAUXCMD
 \cite{Jahier2016, Karpin2007} }\hspace{0pt}%DIFAUXCMD
 }\DIFdelend \DIFaddbegin \DIFadd{Two papers }\DIFaddend employed a transpiler \DIFdelbegin \DIFdel{, one }\DIFdelend \DIFaddbegin \DIFadd{that translates from one language to another - one from Lustre to OCaml \mbox{%DIFAUXCMD
 \cite{Jahier2016} }\hspace{0pt}%DIFAUXCMD
@@ -848,7 +869,7 @@ We have observed that managed, deterministic use of memory is a common requireme
 %	\caption{API analysis}
 %\end{figure}
 
-Figure \ref{fig:rq5bcd} examines the API characteristics of the various implementations, grouped into (i) native C/C++, (ii) non-native C and (iii) languages other than C, where non-native C refers to language extensions, transpilers, or tools that otherwise extend the C compiler toolchain. The results for languages other than C and for non-native C implementations are interesting because they may reveal what the language designers and implementers considered to be desirable characteristics. (In each case the percentage shown is a fraction of the unique implementations inspected; it is not necessarily representative of the population at large.)
+Figure \ref{fig:rq5bcd} examines the API characteristics of the various implementations, grouped into (i) native C/C++, (ii) non-native C and (iii) languages other than C, where non-native C refers to language extensions, transpilers, or tools that otherwise extend the C compiler \DIFdelbegin \DIFdel{toolchain}\DIFdelend \DIFaddbegin \DIFadd{tool chain}\DIFaddend . The results for languages other than C and for non-native C implementations are interesting because they may reveal what the language designers and implementers considered to be desirable characteristics. (In each case the percentage shown is a fraction of the unique implementations inspected; it is not necessarily representative of the population at large.)
 
 This paper has suggested that the management of control flow on behalf of the programmer (RQ5b) is a desirable feature of programming languages on resource-constrained platforms. The results in Figure \ref{fig:rq5bcd} appear to support this claim. All non-native C and almost all non-C implementations provide support for managing control flow. (The only exception is \DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
 \cite{Motika2015}}\hspace{0pt}%DIFAUXCMD
@@ -993,7 +1014,5 @@ The first author is supported by an Australian Government Research Training Prog
 %	ISO2017: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/n4680.pdf
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{SMS-Coro}
-
-
 
 \end{document}
