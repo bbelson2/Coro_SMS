@@ -1,0 +1,177 @@
+\documentclass[format=manuscript, review=false, screen=true]{acmart}
+
+%\citestyle{acmnumeric}
+\citestyle{acmauthoryear}
+
+\usepackage{booktabs} % For formal tables
+
+\usepackage[ruled]{algorithm2e} % For algorithms
+\renewcommand{\algorithmcfname}{ALGORITHM}
+\SetAlFnt{\small}
+\SetAlCapFnt{\small}
+\SetAlCapNameFnt{\small}
+\SetAlCapHSkip{0pt}
+\IncMargin{-\parindent}
+
+\usepackage{listings} % For code listings
+%\lstdefinestyle{cppstyle}{
+%	tabsize=2
+%}
+\definecolor{verylightgrey}{gray}{0.9}
+\lstset{ %
+	language=C++,
+	basicstyle=\small,%
+%	backgroundcolor=\color{verylightgrey}
+	frame=single
+	}
+
+\usepackage{amssymb}
+\usepackage[flushleft]{threeparttable}
+
+\usepackage{graphicx}
+\usepackage{subcaption}
+\graphicspath{{images/}}
+
+\usepackage{longtable}
+\usepackage{multirow, makecell}
+\usepackage{rotating}
+
+% Metadata Information
+\acmJournal{TECS}
+%\acmVolume{1}
+%\acmNumber{1}
+%\acmArticle{1}
+%\acmYear{2018}
+%\acmMonth{1}
+\copyrightyear{2018}
+%\acmArticleSeq{1}
+
+% Copyright
+%\setcopyright{acmcopyright}
+%\setcopyright{acmlicensed}
+%\setcopyright{rightsretained}
+%\setcopyright{usgov}
+%\setcopyright{usgovmixed}
+%\setcopyright{cagov}
+%\setcopyright{cagovmixed}
+
+% DOI
+\acmDOI{}
+
+% Paper history
+%\received{February 2007}
+%\received[revised]{March 2009}
+%\received[accepted]{June 2009}
+
+\listfiles
+
+% Document starts
+\begin{document}
+% Title portion. Note the short title for running heads
+\title[A Survey of Asynchronous Programming Using Coroutines in IoT and Embedded Systems]{A Survey of Asynchronous Programming Using Coroutines in the Internet of Things and Embedded Systems}
+
+\author{Bruce Belson}
+\orcid{0000-0003-2904-1650}
+\affiliation{%
+  \institution{James Cook University}
+  \department{College of Science \& Engineering}
+  \city{Cairns}
+  \state{Queensland}
+  \postcode{4870}
+  \country{Australia}}
+\email{bruce.belson@my.jcu.edu.au}
+
+\author{Jason Holdsworth}
+\affiliation{%
+	\institution{James Cook University}
+	\department{College of Science \& Engineering}
+	%\city{Cairns}
+	%\state{Queensland}
+	%\postcode{4870}
+	%\country{Australia}
+}
+\email{jason.holdsworth@jcu.edu.au}
+
+\author{Wei Xiang}
+\affiliation{%
+	\institution{James Cook University}
+	\department{College of Science \& Engineering}
+	%\city{Cairns}
+	%\state{Queensland}
+	%\postcode{4870}
+	%\country{Australia}
+}
+\email{wei.xiang@jcu.edu.au}
+
+\author{Bronson Philippa}
+\affiliation{%
+	\institution{James Cook University}
+	\department{College of Science \& Engineering}
+	%\city{Cairns}
+	%\state{Queensland}
+	%\postcode{4870}
+	%\country{Australia}
+}
+\email{bronson.philippa@jcu.edu.au}
+
+\authorsaddresses{%
+Authors’ addresses: Bruce Belson, James Cook University, College of Science \& Engineering, Cairns, Queensland, 4870, Australia, bruce.belson@my.jcu.edu.au; Jason Holdsworth, James Cook University, College of Science \& Engineering, jason.holdsworth@jcu.edu.au; Wei Xiang (corresponding author), James Cook University, College of Science \& Engineering, wei.xiang@jcu.edu.au; Bronson Philippa (corresponding author), James Cook University, College of Science \& Engineering, bronson.philippa@jcu.edu.au.}
+
+\begin{abstract}
+Many Internet of Things and embedded projects are event-driven, and therefore require asynchronous and concurrent programming. Current proposals for C++20 suggest that coroutines will have native language support. It is timely to survey the current use of coroutines in embedded systems development.  This paper investigates existing research which uses or describes coroutines on resource-constrained platforms. The existing research is analysed with regard to: software platform, hardware platform and capacity; use cases and intended benefits; and the application programming interface design used for coroutines. A systematic mapping study was performed, to select studies published between 2007 and 2018 which contained original research into the application of coroutines on resource-constrained platforms. An initial set of 566 candidate papers, collated from on-line databases, were reduced to only 35 after filters were applied, revealing the following taxonomy. The C \& C++ programming languages were used by 22 studies out of 35. As regards hardware, 16 studies used 8- or 16-bit processors while 13 used 32-bit processors.  The four most common use cases were concurrency (17 papers), network communication (15), sensor readings (9) and data flow (7). The leading intended benefits were code style and simplicity (12 papers), scheduling (9) and efficiency (8). A wide variety of techniques have been used to implement coroutines, including native macros, additional tool chain steps, new language features and non-portable assembly language. We conclude that there is widespread demand for coroutines on resource-constrained devices. Our findings suggest that there is significant demand for a formalised, stable, well-supported implementation of coroutines in C++, designed with consideration of the special needs of resource-constrained devices, and further that such an implementation would bring benefits specific to such devices.
+\end{abstract}
+
+
+%
+% The code below should be generated by the tool at
+% http://dl.acm.org/ccs.cfm
+% Please copy and paste the code instead of the example below.
+%
+\begin{CCSXML}
+	<ccs2012>
+	<concept>
+	<concept_id>10011007.10011006.10011008.10011024.10011037</concept_id>
+	<concept_desc>Software and its engineering~Coroutines</concept_desc>
+	<concept_significance>500</concept_significance>
+	</concept>
+	<concept>
+	<concept_id>10011007.10011006.10011041</concept_id>
+	<concept_desc>Software and its engineering~Compilers</concept_desc>
+	<concept_significance>300</concept_significance>
+	</concept>
+	<concept>
+	<concept_id>10010520.10010553.10010562.10010564</concept_id>
+	<concept_desc>Computer systems organization~Embedded software</concept_desc>
+	<concept_significance>300</concept_significance>
+	</concept>
+	<concept>
+	<concept_id>10010520.10010553.10010559</concept_id>
+	<concept_desc>Computer systems organization~Sensors and actuators</concept_desc>
+	<concept_significance>100</concept_significance>
+	</concept>
+	</ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Software and its engineering~Coroutines}
+\ccsdesc[300]{Software and its engineering~Compilers}
+\ccsdesc[300]{Computer systems organization~Embedded software}
+\ccsdesc[100]{Computer systems organization~Sensors and actuators}
+
+
+%
+% End generated code
+%
+
+
+\keywords{embedded, resource-constrained, asynchronous, direct style, scheduling}
+
+\maketitle
+
+% If the default list of authors is too long for headers.
+%\renewcommand{\shortauthors}{B. Belson et al.}
+
+\input{Coroutines-SMS-41}
+
+\input{Coroutines-SMS-Supp-41}
+
+\end{document}

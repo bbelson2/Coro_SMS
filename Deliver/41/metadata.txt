@@ -1,0 +1,9 @@
+Authors
+Bruce Belson (1), Jason Holdsworth (1), Wei Xiang (1), Bronson Philippa (1)
+  ((1) College of Science & Engineering, James Cook University)
+
+Abstract
+TODO
+
+Comments
+22 pages, 8 figures, to be published in ACM Transactions on Embedded Computing Systems (TECS)

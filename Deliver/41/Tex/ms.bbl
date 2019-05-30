@@ -1,0 +1,1442 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Al-Fuqaha, Guizani, Mohammadi, Aledhari, and
+  Ayyash}{Al-Fuqaha et~al\mbox{.}}{2015}]%
+        {Al-Fuqaha2015}
+\bibfield{author}{\bibinfo{person}{Ala Al-Fuqaha}, \bibinfo{person}{Mohsen
+  Guizani}, \bibinfo{person}{Mehdi Mohammadi}, \bibinfo{person}{Mohammed
+  Aledhari}, {and} \bibinfo{person}{Moussa Ayyash}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{{Internet of Things: A Survey on Enabling
+  Technologies, Protocols, and Applications}}.
+\newblock \bibinfo{journal}{{\em IEEE Communications Surveys and Tutorials\/}}
+  \bibinfo{volume}{17}, \bibinfo{number}{4} (\bibinfo{year}{2015}),
+  \bibinfo{pages}{2347--2376}.
+\newblock
+\showISBNx{1553-877X}
+\showISSN{1553877X}
+\showDOI{%
+\url{https://doi.org/10.1109/COMST.2015.2444095}}
+\showeprint[arxiv]{arXiv:1011.1669v3}
+
+
+\bibitem[\protect\citeauthoryear{Alvira and Barton}{Alvira and Barton}{2013}]%
+        {Alvira2013}
+\bibfield{author}{\bibinfo{person}{Mariano Alvira} {and}
+  \bibinfo{person}{Taylor Barton}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em {Small and Inexpensive Single-Board Computer
+  for Autonomous Sailboat Control}}}.
+\newblock \bibinfo{publisher}{Springer, Berlin, Heidelberg},
+  \bibinfo{address}{Berlin, Heidelberg}, \bibinfo{pages}{105--116}.
+\newblock
+\showISBNx{978-3-642-33084-1}
+\showDOI{%
+\url{https://doi.org/10.1007/978-3-642-33084-1_10}}
+
+
+\bibitem[\protect\citeauthoryear{Andalam, Roop, Girault, and Traulsen}{Andalam
+  et~al\mbox{.}}{2014}]%
+        {Andalam2014}
+\bibfield{author}{\bibinfo{person}{Sidharta Andalam},
+  \bibinfo{person}{Partha~S. Roop}, \bibinfo{person}{Alain Girault}, {and}
+  \bibinfo{person}{Claus Traulsen}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{{A Predictable Framework for Safety-Critical
+  Embedded Systems}}.
+\newblock \bibinfo{journal}{{\it IEEE Trans. Comput.}} \bibinfo{volume}{63},
+  \bibinfo{number}{7} (\bibinfo{year}{2014}), \bibinfo{pages}{1600--1612}.
+\newblock
+\showISBNx{0018-9340 VO - 63}
+\showISSN{00189340}
+\showDOI{%
+\url{https://doi.org/10.1109/TC.2013.28}}
+
+
+\bibitem[\protect\citeauthoryear{Andersen, Fierro, and Culler}{Andersen
+  et~al\mbox{.}}{2016}]%
+        {Andersen2016}
+\bibfield{author}{\bibinfo{person}{Michael~P. Andersen}, \bibinfo{person}{Gabe
+  Fierro}, {and} \bibinfo{person}{David~E. Culler}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{{System Design for a Synergistic, Low Power
+  Mote/BLE Embedded Platform}}. In \bibinfo{booktitle}{{\em 2016 15th ACM/IEEE
+  International Conference on Information Processing in Sensor Networks
+  (IPSN)}}. \bibinfo{publisher}{IEEE}, \bibinfo{address}{Vienna, Austria},
+  \bibinfo{pages}{1--12}.
+\newblock
+\showISBNx{978-1-5090-0802-5}
+\showDOI{%
+\url{https://doi.org/10.1109/IPSN.2016.7460722}}
+
+
+\bibitem[\protect\citeauthoryear{Andersen, Fierro, and Culler}{Andersen
+  et~al\mbox{.}}{2017}]%
+        {Andersen2017b}
+\bibfield{author}{\bibinfo{person}{Michael~P. Andersen}, \bibinfo{person}{Gabe
+  Fierro}, {and} \bibinfo{person}{David~E. Culler}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{{Enabling synergy in IoT: Platform to service and
+  beyond}}.
+\newblock \bibinfo{journal}{{\em Journal of Network and Computer
+  Applications\/}}  \bibinfo{volume}{81} (\bibinfo{year}{2017}),
+  \bibinfo{pages}{96--110}.
+\newblock
+\showISBNx{9781467399487}
+\showISSN{1084-8045}
+\showDOI{%
+\url{https://doi.org/10.1016/j.jnca.2016.10.017}}
+
+
+\bibitem[\protect\citeauthoryear{{AspenCore Global Media}}{{AspenCore Global
+  Media}}{2017}]%
+        {AspenCore2017}
+\bibfield{author}{\bibinfo{person}{{AspenCore Global Media}}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{title}{{2017 Embedded Markets Study}}.
+\newblock   (\bibinfo{year}{2017}).
+\newblock
+\showURL{%
+\url{http://m.eet.com/media/1246048/2017-embedded-market-study.pdf}}
+
+
+\bibitem[\protect\citeauthoryear{Atzori, Iera, and Morabito}{Atzori
+  et~al\mbox{.}}{2010}]%
+        {Atzori2010}
+\bibfield{author}{\bibinfo{person}{Luigi Atzori}, \bibinfo{person}{Antonio
+  Iera}, {and} \bibinfo{person}{Giacomo Morabito}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{{The Internet of Things: A survey}}.
+\newblock \bibinfo{journal}{{\em Computer Networks\/}} \bibinfo{volume}{54},
+  \bibinfo{number}{15} (\bibinfo{year}{2010}), \bibinfo{pages}{2787--2805}.
+\newblock
+\showISBNx{1389-1286}
+\showISSN{13891286}
+\showDOI{%
+\url{https://doi.org/10.1016/j.comnet.2010.05.010}}
+\showeprint[arxiv]{arXiv:1011.1669v3}
+
+
+\bibitem[\protect\citeauthoryear{Barry}{Barry}{2018}]%
+        {Barry2018}
+\bibfield{author}{\bibinfo{person}{Richard Barry}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{{The FreeRTOS Kernel}}.
+\newblock   (\bibinfo{year}{2018}).
+\newblock
+\showURL{%
+\url{https://www.freertos.org/}}
+
+
+\bibitem[\protect\citeauthoryear{Bergel, Harrison, Cahill, and Clarke}{Bergel
+  et~al\mbox{.}}{2011}]%
+        {Bergel2011}
+\bibfield{author}{\bibinfo{person}{Alexandre Bergel}, \bibinfo{person}{William
+  Harrison}, \bibinfo{person}{Vinny Cahill}, {and}
+  \bibinfo{person}{Siobh{\'{a}}n Clarke}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{{FlowTalk: Language Support for Long-Latency
+  Operations in Embedded Devices}}.
+\newblock \bibinfo{journal}{{\em IEEE Transactions on Software Engineering\/}}
+  \bibinfo{volume}{37}, \bibinfo{number}{4} (\bibinfo{year}{2011}),
+  \bibinfo{pages}{526--543}.
+\newblock
+\showISSN{00985589}
+\showDOI{%
+\url{https://doi.org/10.1109/TSE.2010.66}}
+
+
+\bibitem[\protect\citeauthoryear{Bierman, Russo, Mainland, Meijer, and
+  Torgersen}{Bierman et~al\mbox{.}}{2012}]%
+        {Bierman2012}
+\bibfield{author}{\bibinfo{person}{Gavin Bierman}, \bibinfo{person}{Claudio
+  Russo}, \bibinfo{person}{Geoffrey Mainland}, \bibinfo{person}{Erik Meijer},
+  {and} \bibinfo{person}{Mads Torgersen}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{{Pause 'n' Play: Formalizing Asynchronous C
+  sharp}}. In \bibinfo{booktitle}{{\em ECOOP 2012 -- Object-Oriented
+  Programming}}, \bibfield{editor}{\bibinfo{person}{James Noble}} (Ed.).
+  \bibinfo{publisher}{Springer Berlin Heidelberg}, \bibinfo{address}{Berlin,
+  Heidelberg}, \bibinfo{pages}{233--257}.
+\newblock
+\showISBNx{978-3-642-31057-7}
+\showDOI{%
+\url{https://doi.org/10.1007/978-3-642-31057-7_12}}
+
+
+\bibitem[\protect\citeauthoryear{Boers, Gburzy{\'{n}}ski, Nikolaidis, and
+  Olesi{\'{n}}ski}{Boers et~al\mbox{.}}{2010}]%
+        {Boers2010}
+\bibfield{author}{\bibinfo{person}{Nicholas~M. Boers},
+  \bibinfo{person}{Pawe{\l} Gburzy{\'{n}}ski}, \bibinfo{person}{Ioanis
+  Nikolaidis}, {and} \bibinfo{person}{W{\l}odek Olesi{\'{n}}ski}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{{Developing wireless sensor network applications in
+  a virtual environment}}.
+\newblock \bibinfo{journal}{{\em Telecommunication Systems\/}}
+  \bibinfo{volume}{45}, \bibinfo{number}{2-3} (\bibinfo{year}{2010}),
+  \bibinfo{pages}{165--176}.
+\newblock
+\showISSN{10184864}
+\showDOI{%
+\url{https://doi.org/10.1007/s11235-009-9246-x}}
+
+
+\bibitem[\protect\citeauthoryear{Brereton, Kitchenham, Budgen, Turner, and
+  Khalil}{Brereton et~al\mbox{.}}{2007}]%
+        {Brereton2007}
+\bibfield{author}{\bibinfo{person}{Pearl Brereton}, \bibinfo{person}{Barbara~A.
+  Kitchenham}, \bibinfo{person}{David Budgen}, \bibinfo{person}{Mark Turner},
+  {and} \bibinfo{person}{Mohamed Khalil}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{{Lessons from applying the systematic literature
+  review process within the software engineering domain}}.
+\newblock \bibinfo{journal}{{\em Journal of Systems and Software\/}}
+  \bibinfo{volume}{80}, \bibinfo{number}{4} (\bibinfo{year}{2007}),
+  \bibinfo{pages}{571--583}.
+\newblock
+\showISBNx{0164-1212}
+\showISSN{01641212}
+\showDOI{%
+\url{https://doi.org/10.1016/j.jss.2006.07.009}}
+
+
+\bibitem[\protect\citeauthoryear{Brodu, Fr{\'{e}}not, and Obl{\'{e}}}{Brodu
+  et~al\mbox{.}}{2015}]%
+        {Brodu2015}
+\bibfield{author}{\bibinfo{person}{Etienne Brodu},
+  \bibinfo{person}{St{\'{e}}phane Fr{\'{e}}not}, {and}
+  \bibinfo{person}{Fr{\'{e}}d{\'{e}}ric Obl{\'{e}}}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{{Toward Automatic Update from Callbacks to
+  Promises}}. In \bibinfo{booktitle}{{\em Proceedings of the 1st Workshop on
+  All-Web Real-Time Systems - AWeS '15}}. \bibinfo{publisher}{ACM Press},
+  \bibinfo{address}{New York, New York, USA}, \bibinfo{pages}{1--8}.
+\newblock
+\showISBNx{9781450334778}
+\showDOI{%
+\url{https://doi.org/10.1145/2749215.2749216}}
+
+
+\bibitem[\protect\citeauthoryear{Clark}{Clark}{2009}]%
+        {Clark2009}
+\bibfield{author}{\bibinfo{person}{David~L. Clark}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{{Powering intelligent instruments with Lua
+  scripting}}. In \bibinfo{booktitle}{{\em 2009 IEEE AUTOTESTCON}}.
+  \bibinfo{publisher}{IEEE}, \bibinfo{pages}{101--106}.
+\newblock
+\showISBNx{978-1-4244-4980-4}
+\showISSN{1088-7725}
+\showDOI{%
+\url{https://doi.org/10.1109/AUTEST.2009.5314042}}
+
+
+\bibitem[\protect\citeauthoryear{Cohen, Ponte, Rossetto, and Rodriguez}{Cohen
+  et~al\mbox{.}}{2007}]%
+        {Cohen2007b}
+\bibfield{author}{\bibinfo{person}{Marcelo Cohen}, \bibinfo{person}{Thiago
+  Ponte}, \bibinfo{person}{Silvana Rossetto}, {and} \bibinfo{person}{Noemi
+  Rodriguez}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{{Using Coroutines for RPC in Sensor Networks}}. In
+  \bibinfo{booktitle}{{\em 2007 IEEE International Parallel and Distributed
+  Processing Symposium}}. \bibinfo{pages}{1--8}.
+\newblock
+\showISBNx{1424409101}
+\showDOI{%
+\url{https://doi.org/10.1109/IPDPS.2007.370458}}
+
+
+\bibitem[\protect\citeauthoryear{Conway}{Conway}{1963}]%
+        {Conway1963}
+\bibfield{author}{\bibinfo{person}{Melvin~E Conway}.}
+  \bibinfo{year}{1963}\natexlab{}.
+\newblock \showarticletitle{{Design of a Separable Transition-diagram
+  Compiler}}.
+\newblock \bibinfo{journal}{{\em Commun. ACM\/}} \bibinfo{volume}{6},
+  \bibinfo{number}{7} (\bibinfo{date}{jul} \bibinfo{year}{1963}),
+  \bibinfo{pages}{396--408}.
+\newblock
+\showISSN{0001-0782}
+\showDOI{%
+\url{https://doi.org/10.1145/366663.366704}}
+
+
+\bibitem[\protect\citeauthoryear{De~Moura, Rodriguez, and
+  Ierusalimschy}{De~Moura et~al\mbox{.}}{2004}]%
+        {Moura2004a}
+\bibfield{author}{\bibinfo{person}{Ana~L{\'{u}}cia De~Moura},
+  \bibinfo{person}{Noemi Rodriguez}, {and} \bibinfo{person}{Roberto
+  Ierusalimschy}.} \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{{Coroutines in Lua}}.
+\newblock \bibinfo{journal}{{\em Journal of Universal Computer Science\/}}
+  \bibinfo{volume}{10}, \bibinfo{number}{7} (\bibinfo{year}{2004}),
+  \bibinfo{pages}{910--925}.
+\newblock
+\showISSN{0958695X}
+\showDOI{%
+\url{https://doi.org/10.3217/jucs-010-07-0910}}
+
+
+\bibitem[\protect\citeauthoryear{Duff}{Duff}{1988}]%
+        {Duff88}
+\bibfield{author}{\bibinfo{person}{Tom Duff}.} \bibinfo{year}{1988}\natexlab{}.
+\newblock \bibinfo{title}{{Duff's Device}}.
+\newblock   (\bibinfo{year}{1988}).
+\newblock
+\showURL{%
+\url{https://groups.google.com/forum/#!original/comp.lang.c/sWJtHn6sVps/ESTEdYEpeLsJ}}
+
+
+\bibitem[\protect\citeauthoryear{Dunkels}{Dunkels}{2005}]%
+        {Dunkels2005b}
+\bibfield{author}{\bibinfo{person}{Adam Dunkels}.}
+  \bibinfo{year}{2005}\natexlab{}.
+\newblock \bibinfo{title}{{About protothreads}}.
+\newblock   (\bibinfo{year}{2005}).
+\newblock
+\showURL{%
+\url{http://dunkels.com/adam/pt/about.html}}
+
+
+\bibitem[\protect\citeauthoryear{Dunkels, Gronvall, and Voigt}{Dunkels
+  et~al\mbox{.}}{2004}]%
+        {Dunkels2004}
+\bibfield{author}{\bibinfo{person}{A. Dunkels}, \bibinfo{person}{B. Gronvall},
+  {and} \bibinfo{person}{T. Voigt}.} \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{{Contiki - a lightweight and flexible operating
+  system for tiny networked sensors}}. In \bibinfo{booktitle}{{\em 29th Annual
+  IEEE International Conference on Local Computer Networks}}.
+  \bibinfo{publisher}{IEEE (Comput. Soc.)}, \bibinfo{pages}{455--462}.
+\newblock
+\showISBNx{0-7695-2260-2}
+\showDOI{%
+\url{https://doi.org/10.1109/LCN.2004.38}}
+
+
+\bibitem[\protect\citeauthoryear{Dunkels, Schmidt, Voigt, and Ali}{Dunkels
+  et~al\mbox{.}}{2006}]%
+        {Dunkels2006}
+\bibfield{author}{\bibinfo{person}{Adam Dunkels}, \bibinfo{person}{Oliver
+  Schmidt}, \bibinfo{person}{Thiemo Voigt}, {and} \bibinfo{person}{Muneeb
+  Ali}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{{Protothreads: Simplifying Event-driven Programming
+  of Memory-constrained Embedded Systems}}. In \bibinfo{booktitle}{{\em
+  Proceedings of the 4th International Conference on Embedded Networked Sensor
+  Systems}}. \bibinfo{publisher}{ACM Press}, \bibinfo{address}{New York, New
+  York, USA}, \bibinfo{pages}{29----42}.
+\newblock
+\showISBNx{1595933433}
+\showDOI{%
+\url{https://doi.org/10.1145/1182807.1182811}}
+
+
+\bibitem[\protect\citeauthoryear{Durmaz, Challenger, Dagdeviren, and
+  Kardas}{Durmaz et~al\mbox{.}}{2017}]%
+        {Durmaz2017}
+\bibfield{author}{\bibinfo{person}{Caglar Durmaz}, \bibinfo{person}{Moharram
+  Challenger}, \bibinfo{person}{Orhan Dagdeviren}, {and}
+  \bibinfo{person}{Geylani Kardas}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{{Modelling Contiki-Based IoT Systems}}. In
+  \bibinfo{booktitle}{{\em 6th Symposium on Languages, Applications and
+  Technologies (SLATE 2017)}} {\em (\bibinfo{series}{OpenAccess Series in
+  Informatics (OASIcs)})}, \bibfield{editor}{\bibinfo{person}{Ricardo
+  Queir{\'{o}}s}, \bibinfo{person}{M{\'{a}}rio Pinto}, \bibinfo{person}{Alberto
+  Sim{\~{o}}es}, \bibinfo{person}{Jos{\'{e}}~Paulo Leal}, {and}
+  \bibinfo{person}{Maria~Jo{\~{a}}o Varanda}} (Eds.),
+  Vol.~\bibinfo{volume}{56}. \bibinfo{publisher}{Schloss
+  Dagstuhl--Leibniz-Zentrum fuer Informatik}, \bibinfo{address}{Dagstuhl,
+  Germany}, \bibinfo{pages}{5:1----5:13}.
+\newblock
+\showISBNx{978-3-95977-056-9}
+\showISSN{2190-6807}
+\showDOI{%
+\url{https://doi.org/10.4230/OASIcs.SLATE.2017.5}}
+
+
+\bibitem[\protect\citeauthoryear{ECMA}{ECMA}{2017}]%
+        {ECMA2017}
+\bibfield{author}{\bibinfo{person}{ECMA}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{title}{{ECMAScript Latest Draft (ECMA-262) Async Function
+  Definitions}}.
+\newblock   (\bibinfo{year}{2017}).
+\newblock
+\showURL{%
+\url{https://tc39.github.io/ecma262/#sec-async-function-definitions}}
+
+
+\bibitem[\protect\citeauthoryear{Edwards}{Edwards}{2009}]%
+        {Edwards2009}
+\bibfield{author}{\bibinfo{person}{Jonathan Edwards}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{{Coherent reaction}}. In \bibinfo{booktitle}{{\em
+  Proceeding of the 24th ACM SIGPLAN conference companion on Object oriented
+  programming systems languages and applications - OOPSLA '09}}.
+  \bibinfo{publisher}{ACM Press}, \bibinfo{address}{New York, New York, USA},
+  \bibinfo{pages}{925}.
+\newblock
+\showISBNx{9781605587684}
+\showDOI{%
+\url{https://doi.org/10.1145/1639950.1640058}}
+
+
+\bibitem[\protect\citeauthoryear{Elsts, Oikonomou, Fafoutis, and
+  Piechocki}{Elsts et~al\mbox{.}}{2017}]%
+        {Elsts2017}
+\bibfield{author}{\bibinfo{person}{Atis Elsts}, \bibinfo{person}{George
+  Oikonomou}, \bibinfo{person}{Xenofon Fafoutis}, {and} \bibinfo{person}{Robert
+  Piechocki}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{{Internet of Things for smart homes: Lessons
+  learned from the SPHERE case study}}. In \bibinfo{booktitle}{{\em 2017 Global
+  Internet of Things Summit (GIoTS)}}. \bibinfo{pages}{1--6}.
+\newblock
+\showISBNx{9781509058730}
+\showDOI{%
+\url{https://doi.org/10.1109/GIOTS.2017.8016226}}
+
+
+\bibitem[\protect\citeauthoryear{Engelschall}{Engelschall}{2000}]%
+        {Engelschall2000}
+\bibfield{author}{\bibinfo{person}{Ralf~S Engelschall}.}
+  \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{{Portable Multithreading-The Signal Stack Trick for
+  User-Space Thread Creation}}. In \bibinfo{booktitle}{{\em USENIX Annual
+  Technical Conference, General Track}}.
+\newblock
+\showURL{%
+\url{https://dl.acm.org/citation.cfm?id=1267744}}
+
+
+\bibitem[\protect\citeauthoryear{Evers, Havinga, Kuper, Lijding, and
+  Meratnia}{Evers et~al\mbox{.}}{2007}]%
+        {Evers2007}
+\bibfield{author}{\bibinfo{person}{L Evers}, \bibinfo{person}{P~J~M Havinga},
+  \bibinfo{person}{J Kuper}, \bibinfo{person}{M~E~M Lijding}, {and}
+  \bibinfo{person}{N Meratnia}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{{SensorScheme: Supply chain management automation
+  using Wireless Sensor Networks}}. In \bibinfo{booktitle}{{\em 2007 IEEE
+  Conference on Emerging Technologies and Factory Automation (EFTA 2007)}}.
+  \bibinfo{pages}{448--455}.
+\newblock
+\showISSN{1946-0740}
+\showDOI{%
+\url{https://doi.org/10.1109/EFTA.2007.4416802}}
+
+
+\bibitem[\protect\citeauthoryear{Fritzsche and Siemers}{Fritzsche and
+  Siemers}{2010}]%
+        {Fritzsche2010}
+\bibfield{author}{\bibinfo{person}{Rene Fritzsche} {and}
+  \bibinfo{person}{Christian Siemers}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{{Scheduling of Time Enhanced C (Tec)}}. In
+  \bibinfo{booktitle}{{\em 2010 World Automation Congress}}.
+  \bibinfo{pages}{1--6}.
+\newblock
+\showISBNx{9781424496730}
+
+
+\bibitem[\protect\citeauthoryear{Gay, Levis, von Behren, Welsh, Brewer, and
+  Culler}{Gay et~al\mbox{.}}{2003}]%
+        {Gay2003}
+\bibfield{author}{\bibinfo{person}{David Gay}, \bibinfo{person}{Philip Levis},
+  \bibinfo{person}{Robert von Behren}, \bibinfo{person}{Matt Welsh},
+  \bibinfo{person}{Eric Brewer}, {and} \bibinfo{person}{David Culler}.}
+  \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{{The nesC Language: A Holistic Approach to
+  Networked Embedded Systems}}. In \bibinfo{booktitle}{{\em Proceedings of the
+  ACM SIGPLAN 2003 conference on Programming language design and implementation
+  - PLDI '03}}. \bibinfo{publisher}{ACM Press}, \bibinfo{address}{New York, New
+  York, USA}, \bibinfo{pages}{1----11}.
+\newblock
+\showISBNx{1581136625}
+\showISSN{03621340}
+\showDOI{%
+\url{https://doi.org/10.1145/781131.781133}}
+
+
+\bibitem[\protect\citeauthoryear{George}{George}{2014}]%
+        {George2014a}
+\bibfield{author}{\bibinfo{person}{Damien George}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \bibinfo{title}{{MicroPython - Python for microcontrollers}}.
+\newblock   (\bibinfo{year}{2014}).
+\newblock
+\showURL{%
+\url{http://micropython.org/}}
+
+
+\bibitem[\protect\citeauthoryear{George and Sokolovsky}{George and
+  Sokolovsky}{2014}]%
+        {George2014b}
+\bibfield{author}{\bibinfo{person}{Damien~P. George} {and}
+  \bibinfo{person}{Paul Sokolovsky}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \bibinfo{title}{{General information about the ESP8266 port —
+  MicroPython 1.9.4 documentation}}.
+\newblock   (\bibinfo{year}{2014}).
+\newblock
+\showURL{%
+\url{http://docs.micropython.org/en/latest/esp8266/esp8266/general.html}}
+
+
+\bibitem[\protect\citeauthoryear{Glistvain and Aboelaze}{Glistvain and
+  Aboelaze}{2010}]%
+        {Glistvain2010}
+\bibfield{author}{\bibinfo{person}{R. Glistvain} {and} \bibinfo{person}{M.
+  Aboelaze}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{{Romantiki OS - A single stack multitasking
+  operating system for resource limited embedded devices}}. In
+  \bibinfo{booktitle}{{\em Informatics and Systems (INFOS), 2010 The 7th
+  International Conference on}}. \bibinfo{pages}{1--8}.
+\newblock
+\showISBNx{978-1-4244-5828-8}
+\showURL{%
+\url{https://ieeexplore.ieee.org/document/5461735}}
+
+
+\bibitem[\protect\citeauthoryear{Goldthwaite}{Goldthwaite}{2006}]%
+        {Goldthwaite2006}
+\bibfield{author}{\bibinfo{person}{Lois Goldthwaite}.}
+  \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{{Technical report on C++ performance}}.
+\newblock \bibinfo{journal}{{\em ISO/IEC PDTR\/}}  \bibinfo{volume}{18015}
+  (\bibinfo{year}{2006}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Goodspeed}{Goodspeed}{2014}]%
+        {Goodspeed2014}
+\bibfield{author}{\bibinfo{person}{Nat Goodspeed}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em {Stackful Coroutines and Stackless Resumable
+  Functions}}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}.
+\newblock
+\showURL{%
+\url{http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4232.pdf}}
+
+
+\bibitem[\protect\citeauthoryear{Gubbi, Buyya, Marusic, and Palaniswami}{Gubbi
+  et~al\mbox{.}}{2013}]%
+        {Gubbi2013}
+\bibfield{author}{\bibinfo{person}{Jayavardhana Gubbi},
+  \bibinfo{person}{Rajkumar Buyya}, \bibinfo{person}{Slaven Marusic}, {and}
+  \bibinfo{person}{Marimuthu Palaniswami}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{{Internet of Things (IoT): A vision, architectural
+  elements, and future directions}}.
+\newblock \bibinfo{journal}{{\em Future Generation Computer Systems\/}}
+  \bibinfo{volume}{29}, \bibinfo{number}{7} (\bibinfo{year}{2013}),
+  \bibinfo{pages}{1645--1660}.
+\newblock
+\showISBNx{0167739X}
+\showISSN{0167739X}
+\showDOI{%
+\url{https://doi.org/10.1016/j.future.2013.01.010}}
+\showeprint[arxiv]{1207.0203}
+
+
+\bibitem[\protect\citeauthoryear{Gupta, {Coelho Jr.}, and {De Micheli}}{Gupta
+  et~al\mbox{.}}{1992}]%
+        {Gupta1992}
+\bibfield{author}{\bibinfo{person}{R~K Gupta}, \bibinfo{person}{C~N {Coelho
+  Jr.}}, {and} \bibinfo{person}{G {De Micheli}}.}
+  \bibinfo{year}{1992}\natexlab{}.
+\newblock \showarticletitle{{Synthesis and Simulation of Digital Systems
+  Containing Interacting Hardware and Software Components}}. In
+  \bibinfo{booktitle}{{\em Proceedings of the 29th ACM/IEEE Design Automation
+  Conference}} {\em (\bibinfo{series}{DAC '92})}. \bibinfo{publisher}{IEEE
+  Computer Society Press}, \bibinfo{address}{Los Alamitos, CA, USA},
+  \bibinfo{pages}{225--230}.
+\newblock
+\showISBNx{0-89791-516-X}
+\showURL{%
+\url{http://dl.acm.org/citation.cfm?id=113938.149413}}
+
+
+\bibitem[\protect\citeauthoryear{Haller and Zaugg}{Haller and Zaugg}{2016}]%
+        {Haller2016}
+\bibfield{author}{\bibinfo{person}{Philipp Haller} {and} \bibinfo{person}{Jason
+  Zaugg}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{title}{{SIP-22 - Async - Scala Documentation}}.
+\newblock   (\bibinfo{year}{2016}).
+\newblock
+\showURL{%
+\url{http://docs.scala-lang.org/sips/pending/async.html}}
+
+
+\bibitem[\protect\citeauthoryear{Hempel}{Hempel}{2008}]%
+        {Hempel2008}
+\bibfield{author}{\bibinfo{person}{Ralph Hempel}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{{Porting Lua to a microcontroller}}.
+\newblock \bibinfo{journal}{{\em Lua Programming Gems\/}}
+  (\bibinfo{year}{2008}).
+\newblock
+\showISBNx{8590379841}
+
+
+\bibitem[\protect\citeauthoryear{Herity}{Herity}{2015}]%
+        {Herity2015}
+\bibfield{author}{\bibinfo{person}{Dominic Herity}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{title}{{Modern C++ in embedded systems – Part 1: Myth and
+  Reality | Embedded}}.
+\newblock   (\bibinfo{year}{2015}).
+\newblock
+\showURL{%
+\url{https://www.embedded.com/design/programming-languages-and-tools/4438660/1/Modern-C--in-embedded-systems---Part-1--Myth-and-Reality}}
+
+
+\bibitem[\protect\citeauthoryear{Inam, M{\"{a}}ki-Turja, Sj{\"{o}}din, Ashjaei,
+  and Afshar}{Inam et~al\mbox{.}}{2011}]%
+        {Inam2011}
+\bibfield{author}{\bibinfo{person}{R Inam}, \bibinfo{person}{J
+  M{\"{a}}ki-Turja}, \bibinfo{person}{M Sj{\"{o}}din}, \bibinfo{person}{S~M~H
+  Ashjaei}, {and} \bibinfo{person}{S Afshar}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{{Support for hierarchical scheduling in FreeRTOS}}.
+  In \bibinfo{booktitle}{{\em ETFA2011}}. \bibinfo{pages}{1--10}.
+\newblock
+\showISSN{1946-0740}
+\showDOI{%
+\url{https://doi.org/10.1109/ETFA.2011.6059016}}
+
+
+\bibitem[\protect\citeauthoryear{ISO/IEC}{ISO/IEC}{2017}]%
+        {ISO2017}
+\bibfield{author}{\bibinfo{person}{ISO/IEC}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{title}{{N4680 Programming Languages - C++ Extensions for
+  Library Fundamentals}}.  (\bibinfo{year}{2017}).
+\newblock
+\showURL{%
+\url{http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/n4680.pdf}}
+
+
+\bibitem[\protect\citeauthoryear{J{\"{a}}{\"{a}}skel{\"{a}}inen,
+  Kellom{\"{a}}ki, Takala, Kultala, and
+  Lepist{\"{o}}}{J{\"{a}}{\"{a}}skel{\"{a}}inen et~al\mbox{.}}{2008}]%
+        {Jaaskelainen2008}
+\bibfield{author}{\bibinfo{person}{Pekka J{\"{a}}{\"{a}}skel{\"{a}}inen},
+  \bibinfo{person}{Pertti Kellom{\"{a}}ki}, \bibinfo{person}{Jarmo Takala},
+  \bibinfo{person}{Heikki Kultala}, {and} \bibinfo{person}{Mikael
+  Lepist{\"{o}}}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{{Reducing Context Switch Overhead with
+  Compiler-Assisted Threading}}. In \bibinfo{booktitle}{{\em 2008 IEEE/IFIP
+  International Conference on Embedded and Ubiquitous Computing}},
+  Vol.~\bibinfo{volume}{2}. \bibinfo{pages}{461--466}.
+\newblock
+\showISBNx{9780769534923}
+\showDOI{%
+\url{https://doi.org/10.1109/EUC.2008.181}}
+
+
+\bibitem[\protect\citeauthoryear{Jahier}{Jahier}{2016}]%
+        {Jahier2016}
+\bibfield{author}{\bibinfo{person}{Erwan Jahier}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{{RDBG: A Reactive Programs Extensible Debugger}}.
+  In \bibinfo{booktitle}{{\em Proceedings of the 19th International Workshop on
+  Software and Compilers for Embedded Systems}} {\em (\bibinfo{series}{SCOPES
+  '16})}, \bibfield{editor}{\bibinfo{person}{Sander Stuijk}} (Ed.).
+  \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{116--125}.
+\newblock
+\showISBNx{978-1-4503-4320-6}
+\showDOI{%
+\url{https://doi.org/10.1145/2906363.2906372}}
+
+
+\bibitem[\protect\citeauthoryear{Kalebe, Girao, and Filho}{Kalebe
+  et~al\mbox{.}}{2017}]%
+        {Kalebe2017}
+\bibfield{author}{\bibinfo{person}{Rubem Kalebe}, \bibinfo{person}{Gustavo
+  Girao}, {and} \bibinfo{person}{Itamir Filho}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{{A library for scheduling lightweight threads in
+  Internet of Things microcontrollers}}. In \bibinfo{booktitle}{{\em 2017
+  International Conference on Computing Networking and Informatics (ICCNI)}}.
+  \bibinfo{publisher}{IEEE}, \bibinfo{pages}{1--7}.
+\newblock
+\showISBNx{978-1-5090-4642-3}
+\showDOI{%
+\url{https://doi.org/10.1109/ICCNI.2017.8123793}}
+
+
+\bibitem[\protect\citeauthoryear{Kambona, Boix, and {De Meuter}}{Kambona
+  et~al\mbox{.}}{2013}]%
+        {Kambona2013}
+\bibfield{author}{\bibinfo{person}{Kennedy Kambona},
+  \bibinfo{person}{Elisa~Gonzalez Boix}, {and} \bibinfo{person}{Wolfgang {De
+  Meuter}}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{{An Evaluation of Reactive Programming and Promises
+  for Structuring Collaborative Web Applications}}. In \bibinfo{booktitle}{{\em
+  Proceedings of the 7th Workshop on Dynamic Languages and Applications}} {\em
+  (\bibinfo{series}{DYLA '13})}. \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{3:1----3:9}.
+\newblock
+\showISBNx{978-1-4503-2041-2}
+\showDOI{%
+\url{https://doi.org/10.1145/2489798.2489802}}
+
+
+\bibitem[\protect\citeauthoryear{Karpinski and Cahill}{Karpinski and
+  Cahill}{2007}]%
+        {Karpin2007}
+\bibfield{author}{\bibinfo{person}{Marcin Karpinski} {and}
+  \bibinfo{person}{Vinny Cahill}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{{High-Level Application Development is Realistic
+  for Wireless Sensor Networks}}. In \bibinfo{booktitle}{{\em 2007 4th Annual
+  IEEE Communications Society Conference on Sensor, Mesh and Ad Hoc
+  Communications and Networks}}. \bibinfo{pages}{610--619}.
+\newblock
+\showISBNx{1424412684}
+\showDOI{%
+\url{https://doi.org/10.1109/SAHCN.2007.4292873}}
+
+
+\bibitem[\protect\citeauthoryear{Khezri, Sarram, and Adibniya}{Khezri
+  et~al\mbox{.}}{2008}]%
+        {Khezri2008}
+\bibfield{author}{\bibinfo{person}{Meysam Khezri}, \bibinfo{person}{Mehdi~Agha
+  Sarram}, {and} \bibinfo{person}{Fazlollah Adibniya}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{{Simplifying Concurrent Programming of Networked
+  Embedded Systems}}. In \bibinfo{booktitle}{{\em 2008 IEEE International
+  Symposium on Parallel and Distributed Processing with Applications}}.
+  \bibinfo{pages}{993--998}.
+\newblock
+\showISBNx{978-0-7695-3471-8}
+\showDOI{%
+\url{https://doi.org/10.1109/ISPA.2008.138}}
+
+
+\bibitem[\protect\citeauthoryear{Kitchenham}{Kitchenham}{2004}]%
+        {Kitchenham2004}
+\bibfield{author}{\bibinfo{person}{Barbara Kitchenham}.}
+  \bibinfo{year}{2004}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em {Procedures for performing systematic
+  reviews}}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport} TR/SE-0401. \bibinfo{pages}{28}
+  pages.
+\newblock
+\showISBNx{1353-7776}
+\showISSN{13537776}
+\showDOI{%
+\url{https://doi.org/10.1.1.122.3308}}
+
+
+\bibitem[\protect\citeauthoryear{Kitchenham and Charters}{Kitchenham and
+  Charters}{2007}]%
+        {Kitchenham2007}
+\bibfield{author}{\bibinfo{person}{Barbara Kitchenham} {and}
+  \bibinfo{person}{Stuart Charters}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em {Guidelines for performing Systematic
+  Literature reviews in Software Engineering Version 2.3}}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}.
+\newblock
+\showISBNx{1595933751}
+\showISSN{00010782}
+\showeprint[arxiv]{1304.1186}
+
+
+\bibitem[\protect\citeauthoryear{Kitchenham, Budgen, and {Pearl
+  Brereton}}{Kitchenham et~al\mbox{.}}{2011}]%
+        {Kitchenham2011a}
+\bibfield{author}{\bibinfo{person}{Barbara~A. Kitchenham},
+  \bibinfo{person}{David Budgen}, {and} \bibinfo{person}{O. {Pearl Brereton}}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{{Using mapping studies as the basis for further
+  research - A participant-observer case study}}.
+\newblock \bibinfo{journal}{{\em Information and Software Technology\/}}
+  \bibinfo{volume}{53}, \bibinfo{number}{6} (\bibinfo{year}{2011}),
+  \bibinfo{pages}{638--651}.
+\newblock
+\showISBNx{0950-5849}
+\showISSN{09505849}
+\showDOI{%
+\url{https://doi.org/10.1016/j.infsof.2010.12.011}}
+
+
+\bibitem[\protect\citeauthoryear{Knuth}{Knuth}{1997}]%
+        {Knuth1968}
+\bibfield{author}{\bibinfo{person}{Donald~E Knuth}.}
+  \bibinfo{year}{1997}\natexlab{}.
+\newblock \showarticletitle{{The Art of Computer Programming, Vol. 1:
+  Fundamental Algorithms (3rd. ed.)}}.
+\newblock  (\bibinfo{year}{1997}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kugler, Nordhus, and Eskofier}{Kugler
+  et~al\mbox{.}}{2013}]%
+        {Kugler2013}
+\bibfield{author}{\bibinfo{person}{Patrick Kugler}, \bibinfo{person}{Philipp
+  Nordhus}, {and} \bibinfo{person}{Bjoern Eskofier}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{{Shimmer, Cooja and Contiki: A new toolset for the
+  simulation of on-node signal processing algorithms}}. In
+  \bibinfo{booktitle}{{\em 2013 IEEE International Conference on Body Sensor
+  Networks}}. \bibinfo{pages}{1--6}.
+\newblock
+\showISBNx{9781479903306}
+\showISSN{2376-8894}
+\showDOI{%
+\url{https://doi.org/10.1109/BSN.2013.6575497}}
+
+
+\bibitem[\protect\citeauthoryear{Kumar, Asokan, Shivshankar, and Dean}{Kumar
+  et~al\mbox{.}}{2007}]%
+        {Kumar2007}
+\bibfield{author}{\bibinfo{person}{Nagendra~J. Kumar}, \bibinfo{person}{Vasanth
+  Asokan}, \bibinfo{person}{Siddhartha Shivshankar}, {and}
+  \bibinfo{person}{Alexander~G. Dean}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{{Efficient Software Implementation of Embedded
+  Communication Protocol Controllers Using Asynchronous Software Thread
+  Integration with Time- and Space-efficient Procedure Calls}}.
+\newblock \bibinfo{journal}{{\em ACM Transactions on Embedded Computing
+  Systems\/}} \bibinfo{volume}{6}, \bibinfo{number}{1} (\bibinfo{date}{feb}
+  \bibinfo{year}{2007}).
+\newblock
+\showISSN{1539-9087}
+\showDOI{%
+\url{https://doi.org/10.1145/1210268.1210270}}
+
+
+\bibitem[\protect\citeauthoryear{Levis and Culler}{Levis and Culler}{2002}]%
+        {Levis2002}
+\bibfield{author}{\bibinfo{person}{Philip Levis} {and} \bibinfo{person}{David
+  Culler}.} \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{{Mate : A Tiny Virtual Machine for Sensor
+  Networks}}.
+\newblock \bibinfo{journal}{{\em ACM SIGPLAN Notices\/}} \bibinfo{volume}{37},
+  \bibinfo{number}{10} (\bibinfo{year}{2002}), \bibinfo{pages}{85--95}.
+\newblock
+\showISBNx{1581135742}
+\showISSN{01635964}
+\showDOI{%
+\url{https://doi.org/10.1145/605397.605407}}
+
+
+\bibitem[\protect\citeauthoryear{Levis, Madden, Polastre, Szewczyk, Whitehouse,
+  Woo, Gay, Hill, Welsh, Brewer, and Culler}{Levis et~al\mbox{.}}{2005}]%
+        {Levis2005}
+\bibfield{author}{\bibinfo{person}{P Levis}, \bibinfo{person}{S Madden},
+  \bibinfo{person}{J Polastre}, \bibinfo{person}{R Szewczyk},
+  \bibinfo{person}{K Whitehouse}, \bibinfo{person}{A Woo}, \bibinfo{person}{D
+  Gay}, \bibinfo{person}{J Hill}, \bibinfo{person}{M Welsh}, \bibinfo{person}{E
+  Brewer}, {and} \bibinfo{person}{D Culler}.} \bibinfo{year}{2005}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em {TinyOS: An Operating System for Sensor
+  Networks}}}.
+\newblock \bibinfo{publisher}{Springer Berlin Heidelberg},
+  \bibinfo{address}{Berlin, Heidelberg}, \bibinfo{pages}{115--148}.
+\newblock
+\showISBNx{978-3-540-27139-0}
+\showDOI{%
+\url{https://doi.org/10.1007/3-540-27139-2_7}}
+
+
+\bibitem[\protect\citeauthoryear{Liskov and Shrira}{Liskov and Shrira}{1988}]%
+        {Liskov1988}
+\bibfield{author}{\bibinfo{person}{B. Liskov} {and} \bibinfo{person}{L.
+  Shrira}.} \bibinfo{year}{1988}\natexlab{}.
+\newblock \showarticletitle{{Promises: linguistic support for efficient
+  asynchronous procedure calls in distributed systems}}.
+\newblock \bibinfo{journal}{{\em ACM SIGPLAN Notices\/}} \bibinfo{volume}{23},
+  \bibinfo{number}{7} (\bibinfo{year}{1988}), \bibinfo{pages}{260--267}.
+\newblock
+\showISBNx{0897912691}
+\showISSN{03621340}
+\showDOI{%
+\url{https://doi.org/10.1145/960116.54016}}
+
+
+\bibitem[\protect\citeauthoryear{Liu, Xu, Muppala, Zhang, Wu, Ye, and
+  Zhang}{Liu et~al\mbox{.}}{2011}]%
+        {Liu2011}
+\bibfield{author}{\bibinfo{person}{Weichen Liu}, \bibinfo{person}{Jiang Xu},
+  \bibinfo{person}{Jogesh~K. Muppala}, \bibinfo{person}{Wei Zhang},
+  \bibinfo{person}{Xiaowen Wu}, \bibinfo{person}{Yaoyao Ye}, {and}
+  \bibinfo{person}{Wei Zhang}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{{Coroutine-Based Synthesis of Efficient Embedded
+  Software From SystemC Models}}.
+\newblock \bibinfo{journal}{{\em IEEE Embedded Systems Letters\/}}
+  \bibinfo{volume}{3}, \bibinfo{number}{1} (\bibinfo{year}{2011}),
+  \bibinfo{pages}{46--49}.
+\newblock
+\showISBNx{1943-0663 VO - 3}
+\showISSN{19430663}
+\showDOI{%
+\url{https://doi.org/10.1109/LES.2011.2112634}}
+
+
+\bibitem[\protect\citeauthoryear{{LLVM Project}}{{LLVM Project}}{2018}]%
+        {LLVMProject2018}
+\bibfield{author}{\bibinfo{person}{{LLVM Project}}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{{Download LLVM releases}}.
+\newblock   (\bibinfo{year}{2018}).
+\newblock
+\showURL{%
+\url{http://releases.llvm.org/}}
+
+
+\bibitem[\protect\citeauthoryear{Lohmann, Spinczyk, Hofer, and
+  Schr{\"{o}}der-Preikschat}{Lohmann et~al\mbox{.}}{2012}]%
+        {Lohmann2012}
+\bibfield{author}{\bibinfo{person}{Daniel Lohmann}, \bibinfo{person}{Olaf
+  Spinczyk}, \bibinfo{person}{Wanja Hofer}, {and} \bibinfo{person}{Wolfgang
+  Schr{\"{o}}der-Preikschat}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em {The Aspect-Aware Design and Implementation
+  of the CiAO Operating-System Family}}}.
+\newblock \bibinfo{publisher}{Springer}, \bibinfo{address}{Berlin, Heidelberg},
+  \bibinfo{pages}{168--215}.
+\newblock
+\showISBNx{978-3-642-35551-6}
+\showDOI{%
+\url{https://doi.org/10.1007/978-3-642-35551-6_5}}
+
+
+\bibitem[\protect\citeauthoryear{Madsen, Lhot{\'{a}}k, and Tip}{Madsen
+  et~al\mbox{.}}{2017}]%
+        {Madsen2017}
+\bibfield{author}{\bibinfo{person}{Magnus Madsen}, \bibinfo{person}{Ondřej
+  Lhot{\'{a}}k}, {and} \bibinfo{person}{Frank Tip}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{{A model for reasoning about JavaScript promises}}.
+\newblock \bibinfo{journal}{{\em Proceedings of the ACM on Programming
+  Languages\/}} \bibinfo{volume}{1}, \bibinfo{number}{OOPSLA}
+  (\bibinfo{year}{2017}).
+\newblock
+\showISSN{24751421}
+\showDOI{%
+\url{https://doi.org/10.1145/3133910}}
+
+
+\bibitem[\protect\citeauthoryear{Manyika, Chui, Bisson, Woetzel, Dobbs, Bughin,
+  and Aharon}{Manyika et~al\mbox{.}}{2015}]%
+        {Manyika2015}
+\bibfield{author}{\bibinfo{person}{James Manyika}, \bibinfo{person}{Michael
+  Chui}, \bibinfo{person}{Peter Bisson}, \bibinfo{person}{Jonathan Woetzel},
+  \bibinfo{person}{Richard Dobbs}, \bibinfo{person}{Jacques Bughin}, {and}
+  \bibinfo{person}{Dan Aharon}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{{The Internet of Things: Mapping the value beyond
+  the hype}}.
+\newblock \bibinfo{journal}{{\em McKinsey Global Institute\/}}
+  \bibinfo{number}{June} (\bibinfo{year}{2015}), \bibinfo{pages}{144}.
+\newblock
+\showISBNx{978-3-319-05028-7}
+\showISSN{1860949X}
+\showURL{%
+\url{https://www.mckinsey.com/~/media/McKinsey/Business%20Functions/McKinsey%20Digital/Our%20Insights/The%20Internet%20of%20Things%20The%20value%20of%20digitizing%20the%20physical%20world/The-Internet-of-things-Mapping-the-value-beyond-the-hype.ashx}}
+
+
+\bibitem[\protect\citeauthoryear{Marlin}{Marlin}{1979}]%
+        {Marlin1979}
+\bibfield{author}{\bibinfo{person}{Christopher~D Marlin}.}
+  \bibinfo{year}{1979}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em {Coroutines: A Programming Methodology, a
+  Language Design and an Implementation}}}.
+\newblock Number~95 in \bibinfo{series}{Lecture Notes in Computer Science}.
+  \bibinfo{publisher}{Springer, Berlin, Heidelberg}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Meijer}{Meijer}{2010}]%
+        {Meijer2010}
+\bibfield{author}{\bibinfo{person}{Erik Meijer}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{{Reactive extensions (Rx): Curing Your Asynchronous
+  Programming Blues}}. In \bibinfo{booktitle}{{\em ACM SIGPLAN Commercial Users
+  of Functional Programming on - CUFP '10}}. \bibinfo{publisher}{ACM Press},
+  \bibinfo{address}{New York, New York, USA}, \bibinfo{pages}{1}.
+\newblock
+\showISBNx{9781450305167}
+\showDOI{%
+\url{https://doi.org/10.1145/1900160.1900173}}
+
+
+\bibitem[\protect\citeauthoryear{{Microsoft Corporation}}{{Microsoft
+  Corporation}}{2018}]%
+        {Microsoft2018}
+\bibfield{author}{\bibinfo{person}{{Microsoft Corporation}}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{{The latest supported Visual C++ downloads}}.
+\newblock   (\bibinfo{year}{2018}).
+\newblock
+\showURL{%
+\url{https://support.microsoft.com/en-au/help/2977003/the-latest-supported-visual-c-downloads}}
+
+
+\bibitem[\protect\citeauthoryear{Mittelette}{Mittelette}{2015}]%
+        {Mittelette2015}
+\bibfield{author}{\bibinfo{person}{Eric Mittelette}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{title}{{Coroutines in Visual Studio 2015 – Update 1 -
+  Visual C++ Team Blog}}.
+\newblock   (\bibinfo{year}{2015}).
+\newblock
+\showURL{%
+\url{https://blogs.msdn.microsoft.com/vcblog/2015/11/30/coroutines-in-visual-studio-2015-update-1/}}
+
+
+\bibitem[\protect\citeauthoryear{Motika and von Hanxleden}{Motika and von
+  Hanxleden}{2015}]%
+        {Motika2015}
+\bibfield{author}{\bibinfo{person}{Christian Motika} {and}
+  \bibinfo{person}{Reinhard von Hanxleden}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{{Light-weight Synchronous Java (SJL): An approach
+  for programming deterministic reactive systems with Java}}.
+\newblock \bibinfo{journal}{{\em Computing\/}} \bibinfo{volume}{97},
+  \bibinfo{number}{3} (\bibinfo{year}{2015}), \bibinfo{pages}{281--307}.
+\newblock
+\showISBNx{0060701404}
+\showISSN{0010485X}
+\showDOI{%
+\url{https://doi.org/10.1007/s00607-014-0416-7}}
+
+
+\bibitem[\protect\citeauthoryear{Niebert and Caralp}{Niebert and
+  Caralp}{2014}]%
+        {Niebert2014}
+\bibfield{author}{\bibinfo{person}{Peter Niebert} {and}
+  \bibinfo{person}{Mathieu Caralp}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em {Cellular Programming}}}.
+\newblock \bibinfo{publisher}{Springer International Publishing},
+  \bibinfo{address}{Cham}, \bibinfo{pages}{11--22}.
+\newblock
+\showISBNx{978-3-319-13749-0}
+\showDOI{%
+\url{https://doi.org/10.1007/978-3-319-13749-0_2}}
+
+
+\bibitem[\protect\citeauthoryear{Noman, Negash, Rahmani, Liljeberg, and
+  Tenhunen}{Noman et~al\mbox{.}}{2017}]%
+        {Noman2017}
+\bibfield{author}{\bibinfo{person}{Uzair~A. Noman}, \bibinfo{person}{Behailu
+  Negash}, \bibinfo{person}{Amir~M. Rahmani}, \bibinfo{person}{Pasi Liljeberg},
+  {and} \bibinfo{person}{Hannu Tenhunen}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{{From threads to events: Adapting a lightweight
+  middleware for Contiki OS}}. In \bibinfo{booktitle}{{\em 2017 14th IEEE
+  Annual Consumer Communications and Networking Conference (CCNC)}}.
+  \bibinfo{pages}{486--491}.
+\newblock
+\showISBNx{9781509061969}
+\showDOI{%
+\url{https://doi.org/10.1109/CCNC.2017.7983156}}
+
+
+\bibitem[\protect\citeauthoryear{Okur, Hartveld, Dig, and van Deursen}{Okur
+  et~al\mbox{.}}{2014}]%
+        {Okur2014}
+\bibfield{author}{\bibinfo{person}{Semih Okur}, \bibinfo{person}{David~L.
+  Hartveld}, \bibinfo{person}{Danny Dig}, {and} \bibinfo{person}{Arie van
+  Deursen}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{{A Study and Toolkit for Asynchronous Programming
+  in C{\#}}}. In \bibinfo{booktitle}{{\em Proceedings of the 36th International
+  Conference on Software Engineering - ICSE 2014}}. \bibinfo{publisher}{ACM
+  Press}, \bibinfo{address}{New York, New York, USA},
+  \bibinfo{pages}{1117--1127}.
+\newblock
+\showISBNx{9781450327565}
+\showDOI{%
+\url{https://doi.org/10.1145/2568225.2568309}}
+
+
+\bibitem[\protect\citeauthoryear{Oldewurtel, Riihij{\"{a}}rvi, Rerkrai, and
+  M{\"{a}}h{\"{o}}nen}{Oldewurtel et~al\mbox{.}}{2009}]%
+        {Oldewurtel2009}
+\bibfield{author}{\bibinfo{person}{Frank Oldewurtel}, \bibinfo{person}{Janne
+  Riihij{\"{a}}rvi}, \bibinfo{person}{Krisakorn Rerkrai}, {and}
+  \bibinfo{person}{Petri M{\"{a}}h{\"{o}}nen}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{{The RUNES Architecture for Reconfigurable Embedded
+  and Sensor Networks}}. In \bibinfo{booktitle}{{\em 2009 Third International
+  Conference on Sensor Technologies and Applications}}.
+  \bibinfo{pages}{109--116}.
+\newblock
+\showISBNx{9780769536699}
+\showDOI{%
+\url{https://doi.org/10.1109/SENSORCOMM.2009.26}}
+
+
+\bibitem[\protect\citeauthoryear{Paisley and Sventek}{Paisley and
+  Sventek}{2006}]%
+        {Paisley2006}
+\bibfield{author}{\bibinfo{person}{Jonathan Paisley} {and}
+  \bibinfo{person}{Joseph Sventek}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{{Real-time Detection of Grid Bulk Transfer
+  Traffic}}. In \bibinfo{booktitle}{{\em 2006 IEEE/IFIP Network Operations and
+  Management Symposium NOMS 2006}}. \bibinfo{pages}{66--72}.
+\newblock
+\showDOI{%
+\url{https://doi.org/10.1109/NOMS.2006.1687539}}
+
+
+\bibitem[\protect\citeauthoryear{Park, Kim, Kang, Koo, and Joe}{Park
+  et~al\mbox{.}}{2015}]%
+        {Park2015}
+\bibfield{author}{\bibinfo{person}{Sihyeong Park}, \bibinfo{person}{Hyungshin
+  Kim}, \bibinfo{person}{Soo~Yeong Kang}, \bibinfo{person}{Cheol~Hea Koo},
+  {and} \bibinfo{person}{Hyunwoo Joe}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{{Lua-Based Virtual Machine Platform for Spacecraft
+  On-Board Control Software}}. In \bibinfo{booktitle}{{\em 2015 IEEE 13th
+  International Conference on Embedded and Ubiquitous Computing}}.
+  \bibinfo{pages}{44--51}.
+\newblock
+\showISBNx{9781467382991}
+\showDOI{%
+\url{https://doi.org/10.1109/EUC.2015.21}}
+
+
+\bibitem[\protect\citeauthoryear{Petersen, Feldt, Mujtaba, and
+  Mattsson}{Petersen et~al\mbox{.}}{2008}]%
+        {Petersen2008}
+\bibfield{author}{\bibinfo{person}{Kai Petersen}, \bibinfo{person}{Robert
+  Feldt}, \bibinfo{person}{Shahid Mujtaba}, {and} \bibinfo{person}{Michael
+  Mattsson}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{{Systematic Mapping Studies in Software
+  Engineering}}. In \bibinfo{booktitle}{{\em Proceedings of the 12th
+  International Conference on Evaluation and Assessment in Software
+  Engineering}}. \bibinfo{publisher}{BCS Learning {\&} Development Ltd.},
+  \bibinfo{pages}{68----77}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Petersen, Vakkalanka, and Kuzniarz}{Petersen
+  et~al\mbox{.}}{2015}]%
+        {Petersen2015}
+\bibfield{author}{\bibinfo{person}{Kai Petersen}, \bibinfo{person}{Sairam
+  Vakkalanka}, {and} \bibinfo{person}{Ludwik Kuzniarz}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{{Guidelines for conducting systematic mapping
+  studies in software engineering: An update}}.
+\newblock \bibinfo{journal}{{\em Information and Software Technology\/}}
+  \bibinfo{volume}{64} (\bibinfo{year}{2015}), \bibinfo{pages}{1--18}.
+\newblock
+\showISBNx{0360-1315}
+\showISSN{09505849}
+\showDOI{%
+\url{https://doi.org/10.1016/j.infsof.2015.03.007}}
+\showeprint[arxiv]{arXiv:1011.1669v3}
+
+
+\bibitem[\protect\citeauthoryear{Riedel, Fantana, Genaid, Yordanov, Schmidtke,
+  and Beigl}{Riedel et~al\mbox{.}}{2010}]%
+        {Riedel2010}
+\bibfield{author}{\bibinfo{person}{Till Riedel}, \bibinfo{person}{Nicolaie
+  Fantana}, \bibinfo{person}{Adrian Genaid}, \bibinfo{person}{Dimitar
+  Yordanov}, \bibinfo{person}{Hedda~R Schmidtke}, {and}
+  \bibinfo{person}{Michael Beigl}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{{Using web service gateways and code generation for
+  sustainable IoT system development}}. In \bibinfo{booktitle}{{\em 2010
+  Internet of Things (IOT)}}. \bibinfo{pages}{1--8}.
+\newblock
+\showDOI{%
+\url{https://doi.org/10.1109/IOT.2010.5678449}}
+
+
+\bibitem[\protect\citeauthoryear{Riegel}{Riegel}{2015}]%
+        {Riegel2015}
+\bibfield{author}{\bibinfo{person}{Torvald Riegel}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{title}{{P0073R0 - On unifying the coroutines and resumable
+  functions proposals}}.  (\bibinfo{year}{2015}).
+\newblock
+\showURL{%
+\url{http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/p0073r0.pdf}}
+
+
+\bibitem[\protect\citeauthoryear{Romer, Dennett, and Carruth}{Romer
+  et~al\mbox{.}}{2018}]%
+        {Romer2018}
+\bibfield{author}{\bibinfo{person}{Geoff Romer}, \bibinfo{person}{James
+  Dennett}, {and} \bibinfo{person}{Chandler Carruth}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{{P1063R0 - Core Coroutines Making coroutines simpler,
+  faster, and more general}}.  (\bibinfo{year}{2018}).
+\newblock
+\showURL{%
+\url{http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1063r0.pdf}}
+
+
+\bibitem[\protect\citeauthoryear{Rossetto and Rodriguez}{Rossetto and
+  Rodriguez}{2006}]%
+        {Rossetto2006}
+\bibfield{author}{\bibinfo{person}{Silvana Rossetto} {and}
+  \bibinfo{person}{Noemi Rodriguez}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{{A cooperative multitasking model for networked
+  sensors}}.
+\newblock \bibinfo{journal}{{\em Proceedings - International Conference on
+  Distributed Computing Systems\/}} (\bibinfo{year}{2006}).
+\newblock
+\showISBNx{0769525415}
+\showISSN{15450678}
+\showDOI{%
+\url{https://doi.org/10.1109/ICDCSW.2006.5}}
+
+
+\bibitem[\protect\citeauthoryear{Schimpf}{Schimpf}{2012}]%
+        {Schimpf2012b}
+\bibfield{author}{\bibinfo{person}{Paul~H Schimpf}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{{Modified Protothreads for Embedded Systems}}.
+\newblock \bibinfo{journal}{{\em Journal of Computing Sciences in Colleges\/}}
+  \bibinfo{volume}{28}, \bibinfo{number}{1} (\bibinfo{year}{2012}),
+  \bibinfo{pages}{177--184}.
+\newblock
+\showURL{%
+\url{http://dl.acm.org/citation.cfm?id=2379703.2379738}}
+
+
+\bibitem[\protect\citeauthoryear{Sicari, Rizzardi, Grieco, and
+  Coen-Porisini}{Sicari et~al\mbox{.}}{2015}]%
+        {Sicari2015}
+\bibfield{author}{\bibinfo{person}{S. Sicari}, \bibinfo{person}{A. Rizzardi},
+  \bibinfo{person}{L.A. Grieco}, {and} \bibinfo{person}{A. Coen-Porisini}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{{Security, privacy and trust in Internet of Things:
+  The road ahead}}.
+\newblock \bibinfo{journal}{{\em Computer Networks\/}}  \bibinfo{volume}{76}
+  (\bibinfo{date}{jan} \bibinfo{year}{2015}), \bibinfo{pages}{146--164}.
+\newblock
+\showISBNx{1389-1286}
+\showISSN{13891286}
+\showDOI{%
+\url{https://doi.org/10.1016/j.comnet.2014.11.008}}
+\showeprint[arxiv]{1404.7799}
+
+
+\bibitem[\protect\citeauthoryear{Skerrett}{Skerrett}{2017}]%
+        {Skerrett2017}
+\bibfield{author}{\bibinfo{person}{Ian Skerrett}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{title}{{IoT Developer Trends 2017 Edition}}.
+\newblock   (\bibinfo{year}{2017}).
+\newblock
+\showURL{%
+\url{https://ianskerrett.wordpress.com/2017/04/19/iot-developer-trends-2017-edition/}}
+
+
+\bibitem[\protect\citeauthoryear{St-Amour and Feeley}{St-Amour and
+  Feeley}{2010}]%
+        {St-Amour2010}
+\bibfield{author}{\bibinfo{person}{Vincent St-Amour} {and}
+  \bibinfo{person}{Marc Feeley}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em {PICOBIT: A Compact Scheme System for
+  Microcontrollers}}}.
+\newblock \bibinfo{publisher}{Springer Berlin Heidelberg},
+  \bibinfo{address}{Berlin, Heidelberg}, \bibinfo{pages}{1--17}.
+\newblock
+\showISBNx{978-3-642-16478-1}
+\showDOI{%
+\url{https://doi.org/10.1007/978-3-642-16478-1_1}}
+
+
+\bibitem[\protect\citeauthoryear{Stroustrup}{Stroustrup}{1986}]%
+        {Stroustrup1986}
+\bibfield{author}{\bibinfo{person}{Bjarne Stroustrup}.}
+  \bibinfo{year}{1986}\natexlab{}.
+\newblock \showarticletitle{{An Overview of C++}}. In \bibinfo{booktitle}{{\em
+  Proceedings of the 1986 SIGPLAN Workshop on Object-oriented Programming}}
+  {\em (\bibinfo{series}{OOPWORK '86})}. \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{7--18}.
+\newblock
+\showISBNx{0-89791-205-5}
+\showDOI{%
+\url{https://doi.org/10.1145/323779.323736}}
+
+
+\bibitem[\protect\citeauthoryear{Strube, Daum, Kapitza, Villanueva, and
+  Dressler}{Strube et~al\mbox{.}}{2010}]%
+        {Strube2010}
+\bibfield{author}{\bibinfo{person}{M Strube}, \bibinfo{person}{M Daum},
+  \bibinfo{person}{R Kapitza}, \bibinfo{person}{F Villanueva}, {and}
+  \bibinfo{person}{F Dressler}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{{Dynamic operator replacement in sensor networks}}.
+  In \bibinfo{booktitle}{{\em The 7th IEEE International Conference on Mobile
+  Ad-hoc and Sensor Systems (IEEE MASS 2010)}}. \bibinfo{pages}{748--750}.
+\newblock
+\showISSN{2155-6806}
+\showDOI{%
+\url{https://doi.org/10.1109/MASS.2010.5663821}}
+
+
+\bibitem[\protect\citeauthoryear{Susilo, Valdastri, Menciassi, and
+  Dario}{Susilo et~al\mbox{.}}{2009}]%
+        {Susilo2009}
+\bibfield{author}{\bibinfo{person}{E. Susilo}, \bibinfo{person}{P. Valdastri},
+  \bibinfo{person}{A. Menciassi}, {and} \bibinfo{person}{P. Dario}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{{A miniaturized wireless control platform for
+  robotic capsular endoscopy using advanced pseudokernel approach}}.
+\newblock \bibinfo{journal}{{\em Sensors and Actuators, A: Physical\/}}
+  \bibinfo{volume}{156}, \bibinfo{number}{1} (\bibinfo{year}{2009}),
+  \bibinfo{pages}{49--58}.
+\newblock
+\showISSN{09244247}
+\showDOI{%
+\url{https://doi.org/10.1016/j.sna.2009.03.036}}
+
+
+\bibitem[\protect\citeauthoryear{Syme, Petricek, and Lomov}{Syme
+  et~al\mbox{.}}{2011}]%
+        {Syme2011}
+\bibfield{author}{\bibinfo{person}{Don Syme}, \bibinfo{person}{Tomas Petricek},
+  {and} \bibinfo{person}{Dmitry Lomov}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{{The Fsharp asynchronous programming model}}.
+\newblock \bibinfo{journal}{{\em Lecture Notes in Computer Science (including
+  subseries Lecture Notes in Artificial Intelligence and Lecture Notes in
+  Bioinformatics)\/}}  \bibinfo{volume}{6539 LNCS} (\bibinfo{year}{2011}),
+  \bibinfo{pages}{175--189}.
+\newblock
+\showISBNx{9783642183775}
+\showISSN{03029743}
+\showDOI{%
+\url{https://doi.org/10.1007/978-3-642-18378-2_15}}
+
+
+\bibitem[\protect\citeauthoryear{Tatham}{Tatham}{2000}]%
+        {Tatham2000}
+\bibfield{author}{\bibinfo{person}{Simon Tatham}.}
+  \bibinfo{year}{2000}\natexlab{}.
+\newblock \bibinfo{title}{{Coroutines in C}}.
+\newblock   (\bibinfo{year}{2000}).
+\newblock
+\showISBNx{0201896834}
+\showURL{%
+\url{https://www.chiark.greenend.org.uk/~sgtatham/coroutines.html}}
+
+
+\bibitem[\protect\citeauthoryear{{The Python Software Foundation}}{{The Python
+  Software Foundation}}{2018}]%
+        {Python2017}
+\bibfield{author}{\bibinfo{person}{{The Python Software Foundation}}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{{9. Classes — Python 3.6.4 documentation}}.
+\newblock   (\bibinfo{year}{2018}).
+\newblock
+\showURL{%
+\url{https://docs.python.org/3/tutorial/classes.html#generators}}
+
+
+\bibitem[\protect\citeauthoryear{Tismer}{Tismer}{2000}]%
+        {Tismer2000}
+\bibfield{author}{\bibinfo{person}{C. Tismer}.}
+  \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{{Continuations and stackless Python}}.
+\newblock \bibinfo{journal}{{\em Proceedings of the 8th International Python
+  Conference\/}} (\bibinfo{year}{2000}), \bibinfo{pages}{2000--01}.
+\newblock
+\showURL{%
+\url{https://svn.python.org/www/trunk/pydotorg/workshops/2000-01/proceedings/papers/tismers/spcpaper.doc}}
+
+
+\bibitem[\protect\citeauthoryear{Tismer}{Tismer}{2018}]%
+        {Tismer2018}
+\bibfield{author}{\bibinfo{person}{Christian Tismer}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{{About Stackless}}.
+\newblock   (\bibinfo{year}{2018}).
+\newblock
+\showURL{%
+\url{https://github.com/stackless-dev/stackless/wiki}}
+
+
+\bibitem[\protect\citeauthoryear{van~der Meulen}{van~der Meulen}{2017}]%
+        {VanderMeulen2017}
+\bibfield{author}{\bibinfo{person}{Rob van~der Meulen}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{title}{{Gartner Says 8.4 Billion Connected "Things" Will Be
+  in Use in 2017, Up 31 Percent From 2016}}.
+\newblock   (\bibinfo{year}{2017}).
+\newblock
+\showURL{%
+\url{http://www.gartner.com/newsroom/id/3598917}}
+
+
+\bibitem[\protect\citeauthoryear{van Rossum and Eby}{van Rossum and
+  Eby}{2005}]%
+        {VanRossum2005}
+\bibfield{author}{\bibinfo{person}{Guido van Rossum} {and}
+  \bibinfo{person}{Phillip~J. Eby}.} \bibinfo{year}{2005}\natexlab{}.
+\newblock \bibinfo{title}{{PEP 342 -- Coroutines via Enhanced Generators}}.
+  (\bibinfo{year}{2005}).
+\newblock
+\showURL{%
+\url{https://www.python.org/dev/peps/pep-0342/}}
+
+
+\bibitem[\protect\citeauthoryear{von Hanxleden}{von Hanxleden}{2009}]%
+        {VonHanxleden2009}
+\bibfield{author}{\bibinfo{person}{Reinhard von Hanxleden}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{{SyncCharts in C: A Proposal for Light-weight,
+  Deterministic Concurrency}}. In \bibinfo{booktitle}{{\em Proceedings of the
+  Seventh ACM International Conference on Embedded Software}}.
+  \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{225--234}.
+\newblock
+\showISBNx{978-1-60558-627-4}
+\showDOI{%
+\url{https://doi.org/10.1145/1629335.1629366}}
+
+
+\bibitem[\protect\citeauthoryear{Weber}{Weber}{2015}]%
+        {Weber2015}
+\bibfield{author}{\bibinfo{person}{Rolf~H Weber}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{{Internet of things: Privacy issues revisited}}.
+\newblock \bibinfo{journal}{{\em Computer Law {\&} Security Review: The
+  International Journal of Technology Law and Practice\/}}
+  \bibinfo{volume}{31} (\bibinfo{year}{2015}), \bibinfo{pages}{618--627}.
+\newblock
+\showDOI{%
+\url{https://doi.org/10.1016/j.clsr.2015.07.002}}
+
+
+\bibitem[\protect\citeauthoryear{Yu, Xiahou, and Li}{Yu et~al\mbox{.}}{2008}]%
+        {Yu2008}
+\bibfield{author}{\bibinfo{person}{Min Yu}, \bibinfo{person}{SiJi Xiahou},
+  {and} \bibinfo{person}{XinYu Li}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{{A Survey of Studying on Task Scheduling Mechanism
+  for TinyOS}}.
+\newblock \bibinfo{journal}{{\em 2008 4th International Conference on Wireless
+  Communications, Networking and Mobile Computing\/}} (\bibinfo{year}{2008}),
+  \bibinfo{pages}{1--4}.
+\newblock
+\showISBNx{9781424421084}
+\showDOI{%
+\url{https://doi.org/10.1109/WiCom.2008.960}}
+
+
+\end{thebibliography}
