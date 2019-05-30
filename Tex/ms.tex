@@ -38,17 +38,17 @@
 
 % Metadata Information
 \acmJournal{TECS}
-%\acmVolume{1}
-%\acmNumber{1}
-%\acmArticle{1}
-%\acmYear{2018}
-%\acmMonth{1}
+\acmVolume{18}
+\acmNumber{3}
+\acmArticle{21}
+\acmYear{2019}
+\acmMonth{4}
 \copyrightyear{2018}
 %\acmArticleSeq{1}
 
 % Copyright
 %\setcopyright{acmcopyright}
-%\setcopyright{acmlicensed}
+\setcopyright{acmlicensed}
 %\setcopyright{rightsretained}
 %\setcopyright{usgov}
 %\setcopyright{usgovmixed}
@@ -56,7 +56,7 @@
 %\setcopyright{cagovmixed}
 
 % DOI
-\acmDOI{}
+\acmDOI{10.1145/3319618}
 
 % Paper history
 %\received{February 2007}
@@ -114,10 +114,11 @@
 }
 \email{bronson.philippa@jcu.edu.au}
 
-\iffalse
-\authorsaddresses{%
-Authors’ addresses: Bruce Belson, James Cook University, College of Science \& Engineering, Cairns, Queensland, 4870, Australia, bruce.belson@my.jcu.edu.au; Jason Holdsworth, James Cook University, College of Science \& Engineering, jason.holdsworth@jcu.edu.au; Wei Xiang (corresponding author), James Cook University, College of Science \& Engineering, wei.xiang@jcu.edu.au; Bronson Philippa (corresponding author), James Cook University, College of Science \& Engineering, bronson.philippa@jcu.edu.au.}
-\fi
+%\iffalse
+%\authorsaddresses{%
+\thanks{%
+Authors' addresses: Bruce Belson, James Cook University, College of Science \& Engineering, Cairns, Queensland, 4870, Australia, bruce.belson@my.jcu.edu.au; Jason Holdsworth, James Cook University, College of Science \& Engineering, jason.holdsworth@jcu.edu.au; Wei Xiang (corresponding author), James Cook University, College of Science \& Engineering, wei.xiang@jcu.edu.au; Bronson Philippa (corresponding author), James Cook University, College of Science \& Engineering, bronson.philippa@jcu.edu.au.\\}
+%\fi
 
 % Note - for arXiv, the abstract is restrit=cted to 1920 characters. This version (as published) contains 1947 (incl spaces).
 
@@ -176,6 +177,10 @@ Many Internet of Things and embedded projects are event-driven, and therefore re
 \keywords{embedded, resource-constrained, asynchronous, direct style, scheduling}
 
 \maketitle
+
+% Suppress the repeated "Manuscript submitted to ACM" on 1st page (only)
+% From https://tex.stackexchange.com/a/166991
+\thispagestyle{empty}
 
 % If the default list of authors is too long for headers.
 %\renewcommand{\shortauthors}{B. Belson et al.}
